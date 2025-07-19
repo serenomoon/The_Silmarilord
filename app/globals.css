@@ -19,6 +19,10 @@
   font-style: normal;
 }
 
+.font-ringm {
+  font-family: 'RINGM', sans-serif;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

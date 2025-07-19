@@ -11,24 +11,24 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu}) => {
     ]
     return(
 
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
+      <nav className="fixed top-0 w-full bg-black/60 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
-              <Image
+              {/* <Image
                 src="/vercel.svg"
                 width={500}
                 height={500}
                 alt="Byluco logo"
                 className="w-8 h-8 mr-2"
-                />
-              <div className="text-2xl font-bold text-slate-800">LOTA</div>
+                /> */}
+              <div className="text-2xl text-yellow-500/90 text-shadow-lg/80 font-ringm">LOTA</div>
             </div>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-6">
               {menuItems.map((item,i) => (
-                  <a key={i} href={item.href} className="text-slate-600 hover:text-[#df891c] transition-colors">
+                  <a key={i} href={item.href} className="font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors">
                   {item.label}
                 </a>
               ))}

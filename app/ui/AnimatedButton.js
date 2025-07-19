@@ -5,7 +5,7 @@ import { CiImageOn } from "react-icons/ci";
 import { MdOutlineTextsms } from "react-icons/md";
 import Image from "next/image";
 
-export const AnimatedButton = ({ name, wiki, info, img, color_bg, h, w }) => {
+export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w }) => {
   const visibleName = name.replace(/_/g, "\u00A0");
   const [popup, setPopup] = useState(null);
   const [isHovering, setIsHovering] = useState(false);
@@ -16,6 +16,7 @@ export const AnimatedButton = ({ name, wiki, info, img, color_bg, h, w }) => {
 
   return (
     <div 
+      id={id}
       className="relative flex flex-col items-center"
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => {

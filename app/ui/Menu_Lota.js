@@ -3,11 +3,11 @@ import {Menu,X,} from "lucide-react"
 
 export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu}) => {
     const menuItems = [
-        { href: "#", label: "Inicio" },
-        { href: "#", label: "Tu Web" },
-        { href: "#", label: "Servicios" },
-        { href: "#", label: "Galería" },
-        { href: "#", label: "Contacto" },
+        { href: "#Home", label: "Home" },
+        { href: "#Valar0", label: "Valar" },
+        { href: "#", label: "Elfs" },
+        { href: "#", label: "Dwarves" },
+        { href: "#", label: "Humans" },
     ]
     return(
 
@@ -22,7 +22,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu}) => {
                 alt="Byluco logo"
                 className="w-8 h-8 mr-2"
                 /> */}
-              <div className="text-2xl text-yellow-500/90 text-shadow-lg/80 font-ringm">LOTA</div>
+              <div className="text-2xl text-yellow-500/90 text-shadow-lg/80 font-ringm">TS</div>
             </div>
 
             {/* Desktop Menu */}

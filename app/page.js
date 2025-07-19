@@ -5,6 +5,9 @@ import Card from "./card/Card";
 import data from "../lotr_info.json"
 import {AnimatedButton} from "./ui/AnimatedButton";
 import { Menu_Lota } from "./ui/Menu_Lota";
+import { Banner } from "./ui/Banner";
+import { RacesSection } from "./sections/RacesSection";
+import { Foot } from "./ui/Foot";
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -20,6 +23,7 @@ const Home = () => {
 
   return (
     <div
+      id="Home"
       // className="bg-[url(/img/lotrmap.jpg)]"
       className="w-full"
     >
@@ -31,47 +35,35 @@ const Home = () => {
       />
 
       <div className="h-screen bg-[url(/img/map-back.png)] bg-fill bg-center">
-        <div className="h-screen flex justify-center bg-black/50 items-center">
+        <div className="h-screen flex flex-col justify-center bg-black/50 items-center">
           <h1 className="text-7xl font-ringm text-yellow-500/90 text-shadow-lg/80">
-            Lord Of The Ancestors
+            The Silmarilord
           </h1>
+          <span className="text-md text-yellow-500/90 text-shadow-lg/80 font-ringm">A journey through Ëa</span>
         </div>
       </div>
 
+      <Banner />
 
-      <div className="grid justify-center mb-5">
-        {data.lotr_info[0].map((lotr,i) => {
-          return(
-          <AnimatedButton
-              key={i}
-              name={lotr.nombre} 
-              wiki={lotr.link}
-              info={lotr.info}
-              img={lotr.img}
-              color_bg={lotr.color_bg}
-              h={16}
-              w={60}
-            />
-          )
-        })}
-      </div>
+      <RacesSection 
+        data={data}
+        index={0}
+        h={16}
+        w={60}
+        order={"flex mb-5"}
+      />
 
-      <div className="grid grid-cols-5 justify-center gap-y-5">
-        {data.lotr_info[1].map((lotr,i) => {
-          return(
-          <AnimatedButton
-              key={i}
-              name={lotr.nombre} 
-              wiki={lotr.link}
-              info={lotr.info}
-              img={lotr.img}
-              color_bg={lotr.color_bg}
-              h={16}
-              w={60}
-            />
-          )
-        })}
-      </div>  
+      <RacesSection 
+        data={data}
+        index={1}
+        h={16}
+        w={60}
+        img_bg="valar.webp"
+      />
+
+      <Banner />
+
+      <Foot />
      
     </div>
   );

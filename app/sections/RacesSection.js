@@ -2,7 +2,12 @@ import { AnimatedButton } from "../ui/AnimatedButton"
 
 export const RacesSection = ({data, index , img_bg ="illuvatar.jpg", h ,w , order="grid grid-cols-5 gap-y-5"}) => {
     return(
-        <div className={`${order} bg-[url(/img/backgrounds/${img_bg})] justify-center bg-cover py-5`}>
+        <div 
+            className={`${order} justify-center bg-cover py-5`}
+            style={{
+                backgroundImage: `url(/img/backgrounds/${img_bg})`
+            }}
+        >
             {data.lotr_info[index].map((lotr,i) => {
                 return(
                 <AnimatedButton

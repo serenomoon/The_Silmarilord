@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export const Banner = () => {
     return(
-        <div className="w-full h-40 relative my-10">
+        <div className="w-full h-40 relative my-10 opacity-60">
             <Image
                 src="/img/one-banner.png"
                 alt="Banner"

@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Card from "./card/Card";
 import data from "../lotr_info.json"
-import {AnimatedButton} from "./ui/AnimatedButton";
+import { AnimatedButton } from "./ui/AnimatedButton";
 import { Menu_Lota } from "./ui/Menu_Lota";
 import { Banner } from "./ui/Banner";
 import { RacesSection } from "./sections/RacesSection";
@@ -12,7 +12,7 @@ import { Foot } from "./ui/Foot";
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-   const toggleMenu = () => {
+  const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
@@ -28,10 +28,10 @@ const Home = () => {
       className="w-full overflow-x-hidden"
     >
 
-      <Menu_Lota 
-        toggleMenu={toggleMenu} 
-        isMenuOpen={isMenuOpen} 
-        closeMenu={closeMenu}      
+      <Menu_Lota
+        toggleMenu={toggleMenu}
+        isMenuOpen={isMenuOpen}
+        closeMenu={closeMenu}
       />
 
       <div className="h-screen bg-[url(/img/map-back.png)] bg-fill bg-center">
@@ -56,12 +56,12 @@ const Home = () => {
               style={{
                 filter: "invert(77%) sepia(71%) saturate(3963%) hue-rotate(357deg) brightness(102%) contrast(103%)"
               }}
-              />
-            </div>
+            />
+          </div>
 
           <div className="h-full flex flex-col pt-20 px-10 text-center col-span-4 col-start-2 border-yellow-500/60 border-x-2">
             <h1 className="text-2xl font-ringm text-yellow-500/90">
-                Welcome to the Silmarilord
+              Welcome to the Silmarilord
             </h1>
             <p>
               Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
@@ -85,85 +85,139 @@ const Home = () => {
               style={{
                 filter: "invert(77%) sepia(71%) saturate(3963%) hue-rotate(357deg) brightness(102%) contrast(103%)"
               }}
-              />
+            />
           </div>
         </div>
       </div>
 
       <Banner />
-      <div className="mb-[15vh]"></div>  
+      <div className="mb-[15vh]"></div>
 
 
       <div className="w-screen relative flex flex-col items-center justify-center pt-20">
         {/* Imagen decorativa */}
-        <div className="absolute -top-10 left-0 right-0 w-full z-0">
+        <div className="relative w-full h-[46.5vw] flex justify-center">
+          { /* Imagen decorativa como fondo */}
+          <div className="absolute inset-0 w-full h-full z-10">
+            <Image
+              src="/img/ui/moria_door_top.png"
+              alt="Banner"
+              fill
+              className="object-contain w-full h-full drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
+              style={{ filter: "brightness(0) invert(1)" }}
+            />
+          </div>
+
+          {/* Texto fijo sobre la imagen */}
+          <div className="absolute z-20 text-center">
+            <h1 className="text-[4vw] font-ringm text-yellow-500/90 pt-[6.5vw] pb-0 mb-0">Family Tree</h1>
+            <p className="text-[1.5vw] text-yellow-500/90 font-ringm p-0 m-0">Ask who and enter</p>
+          </div>
+
+          <div className=" absolute top-[15vw] flex flex-col pt-[6vw] px-[15vw] text-center col-span-4 col-start-2">
+            <h1 className="text-[1.7vw] font-ringm text-yellow-500/90">
+              Welcome to the Silmarilord
+            </h1>
+            <p className="px-[16vw] text-[1.2vw] pt-0 mt-0">
+              1Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+            </p>
+            <p className="px-[8vw] text-[1.2vw] pt-0 mt-0 pb-[2vw]">
+              2Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+            </p>
+            <p className="px-[6vw] text-[1.2vw] pt-0 mt-0">
+              3Cupidatat proident anim anim anim anim anim anim anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+            </p>
+            <p className="px-[4.5vw] text-[1.2vw] pt-0 mt-0 pb-[2vw]">
+              4Cupidatat proident anim anim anim anim anim anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem..
+              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem..
+            </p>
+            <p className="px-[2vw] text-[1.2vw] pt-0 mt-0">
+              5Cupidatat proident anim anim anim anim anim anim anim anim anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+            </p>
+            <p className="px-0 text-[1.2vw] pt-0 mt-0">
+              6Cupidatat proident anim anim anim anim anim anim anim anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative">
+
+        <div className="absolute -top-[.9vw] -left-[2.5vw] w-[20vw] bg-[#0a0a0a] rounded-[3rem]">
           <Image
-            src="/img/ui/moria_door_top.png"
+            src="/img/ui/moria_door_left.png"
             alt="Banner"
-            width={1920}
+            width={500}
             height={0}
-            className="w-full h-auto object-contain drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
+            className="w-full h-auto drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
             style={{ filter: "brightness(0) invert(1)" }}
           />
         </div>
 
-        {/* Texto encima de la imagen */}
-        <div className="relative z-10 text-center w-2/3 mb-6 pb-5">
-          <h1 className="text-5xl font-ringm text-yellow-500/90">Family Tree</h1>
-          <span className="text-md text-yellow-500/90 font-ringm">Ask who and enter</span>
+        <div className="absolute -top-[.9vw] -right-[3vw] w-[20vw] bg-[#0a0a0a] rounded-[4rem]">
+          <Image
+            src="/img/ui/moria_door_right.png"
+            alt="Banner"
+            width={500}
+            height={0}
+            className="object-contain w-full h-full drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
+            style={{ filter: "brightness(0) invert(1)" }}
+          />
         </div>
 
-        <div className="h-full flex flex-col pt-20 px-55 text-center col-span-4 col-start-2 border-yellow-500/60 border-x-2">
-            <h1 className="text-2xl font-ringm text-yellow-500/90">
-                Welcome to the Silmarilord
-            </h1>
-            <p className="px-30">
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-            </p>
-            <br></br>
-            <p className="px-20">
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-            </p>
-            <p className="px-10">
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-            </p>
-            <br></br>
-            <p className="px-5">
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-            </p>
-            <p className="px-0">
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-            </p>
-          </div>
-      </div>
-
-      <div className="mb-5">
-
-      <RacesSection 
+        <RacesSection
           data={data}
           index={0}
           h={16}
           w={60}
           order={"flex mb-5"}
-          />
+        />
 
-        <RacesSection 
+        <RacesSection
           data={data}
           index={1}
           h={16}
-          w={52}
+          w={60}
           img_bg="valar.webp"
-          />
+        />
 
+        <div className="absolute bottom-0 left-[1.1vw] w-[14vw] bg-[#0a0a0a]">
+          <Image
+            src="/img/ui/moria_door_bottom_left.png"
+            alt="Banner"
+            width={500}
+            height={0}
+            className="w-full h-auto drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
+            style={{ filter: "brightness(0) invert(1)" }}
+          />
+        </div>
+
+        <div className="absolute bottom-0 -right-[.4vw] w-[14.3vw] bg-[#0a0a0a]">
+          <Image
+            src="/img/ui/moria_door_bottom_right.png"
+            alt="Banner"
+            width={500}
+            height={0}
+            className="w-full h-auto drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
+            style={{ filter: "brightness(0) invert(1)" }}
+          />
+        </div>
+      </div>
+
+
+      <div className="relative w-[100vw] left-1/2 -translate-x-1/2">
+        <Image
+          src="/img/ui/moria_door_bottom.png"
+          alt="Banner"
+          width={1920}
+          height={0}
+          className="w-full h-auto object-contain drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
+          style={{ filter: "brightness(0) invert(1)" }}
+        />
       </div>
 
       <Foot />
-     
+
     </div>
   );
 }

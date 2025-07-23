@@ -94,7 +94,7 @@ const Home = () => {
       <div className="mb-[15vh]"></div>
 
 
-      <div className="w-screen relative flex flex-col items-center justify-center pt-20">
+      <div className="w-screen relative flex flex-col items-center justify-center">
         {/* Imagen decorativa */}
         <div className="relative w-full h-[46.5vw] flex justify-center">
           { /* Imagen decorativa como fondo */}
@@ -103,8 +103,12 @@ const Home = () => {
               src="/img/ui/moria_door_top.png"
               alt="Banner"
               fill
-              className="object-contain w-full h-full drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
-              style={{ filter: "brightness(0) invert(1)" }}
+              className="object-contain w-full h-full"
+              style={{ 
+                filter: "brightness(0) invert(1) drop-shadow(0 0 15px rgba(100, 200, 255, 0.8))",
+                mixBlendMode: "screen",
+                opacity: "0.9"
+              }}
             />
           </div>
 
@@ -143,25 +147,29 @@ const Home = () => {
 
       <div className="relative">
 
-        <div className="absolute -top-[.9vw] -left-[2.5vw] w-[20vw] bg-[#0a0a0a] rounded-[3rem]">
+        <div className="absolute -top-[1.9vw] -left-[3vw] w-[23vw] z-10 rounded-[3rem]">
           <Image
             src="/img/ui/moria_door_left.png"
             alt="Banner"
             width={500}
             height={0}
-            className="w-full h-auto drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
-            style={{ filter: "brightness(0) invert(1)" }}
+            className="w-full h-auto"
+            style={{ 
+              filter: "drop-shadow(0 0 10px rgba(100, 200, 255, 0.9))",
+            }}
           />
         </div>
 
-        <div className="absolute -top-[.9vw] -right-[3vw] w-[20vw] bg-[#0a0a0a] rounded-[4rem]">
+        <div className="absolute -top-[1.8vw] -right-[4vw] w-[23vw] z-10 rounded-[4rem]">
           <Image
             src="/img/ui/moria_door_right.png"
             alt="Banner"
             width={500}
             height={0}
-            className="object-contain w-full h-full drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
-            style={{ filter: "brightness(0) invert(1)" }}
+            className="object-contain w-full h-full"
+            style={{ 
+              filter: "drop-shadow(0 0 10px rgba(100, 200, 255, 0.9))",
+            }}
           />
         </div>
 
@@ -169,7 +177,7 @@ const Home = () => {
           data={data}
           index={0}
           h={16}
-          w={60}
+          w={80}
           order={"flex mb-5"}
         />
 
@@ -181,25 +189,29 @@ const Home = () => {
           img_bg="valar.webp"
         />
 
-        <div className="absolute bottom-0 left-[1.1vw] w-[14vw] bg-[#0a0a0a]">
+        <div className="absolute bottom-0 -left-[.8vw] w-[18vw]">
           <Image
             src="/img/ui/moria_door_bottom_left.png"
             alt="Banner"
             width={500}
             height={0}
-            className="w-full h-auto drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
-            style={{ filter: "brightness(0) invert(1)" }}
+            className="w-full h-auto"
+            style={{ 
+              filter: "drop-shadow(0 0 10px rgba(100, 200, 255, 0.9))",
+            }}
           />
         </div>
 
-        <div className="absolute bottom-0 -right-[.4vw] w-[14.3vw] bg-[#0a0a0a]">
+        <div className="absolute bottom-0 -right-[3.2vw] w-[19vw]">
           <Image
             src="/img/ui/moria_door_bottom_right.png"
             alt="Banner"
             width={500}
             height={0}
-            className="w-full h-auto drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
-            style={{ filter: "brightness(0) invert(1)" }}
+            className="w-full h-auto"
+            style={{ 
+              filter: "drop-shadow(0 0 10px rgba(100, 200, 255, 0.9))",
+            }}
           />
         </div>
       </div>
@@ -216,6 +228,8 @@ const Home = () => {
         />
       </div>
 
+
+      <div className="mb-50"></div>
       <Foot />
 
     </div>

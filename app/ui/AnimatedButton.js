@@ -14,6 +14,9 @@ export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w }) =>
   const togglePopup = (type) => {
     setPopup((prev) => (prev === type ? null : type));
   };
+  
+  const hei = h*0.25
+  const wid = w*0.25
 
   return (
     <div 
@@ -31,9 +34,18 @@ export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w }) =>
       }}
     >
       <button
-        className={`h-${h} w-${w} border-none rounded-[40px] cursor-pointer group relative`}
+        className={`border-none rounded-[40px] w-60 cursor-pointer group relative`}
+        style={{
+          height: `${hei}rem`,
+          width: `${wid}rem`
+        }}
       >
-        <span className={`z-10 capitalize inline-block ${color_bg} h-${h} w-${w} rounded-[25px] text-black leading-[60px] text-lg tracking-widest transition-all duration-500 group-hover:w-0 group-hover:opacity-0`}>
+        <span className={`z-10 capitalize inline-block ${color_bg} rounded-[25px] text-black leading-[60px] text-lg tracking-widest transition-all duration-500 group-hover:!w-0 group-hover:opacity-0`}
+          style={{
+            height: `${hei}rem`,
+            width: `${wid}rem`
+          }}
+        >
           {visibleName}
         </span>
 

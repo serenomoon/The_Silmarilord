@@ -2,17 +2,18 @@
   "lotr_info" : [
     [
         {
-            "nombre":"eru_ilúvatar",
+            "nombre":"Eru_Ilúvatar",
             "info":"Ilúvatar, del Quenya ilúvë, 'todo' y atar, 'padre'. Es llamado Eru, 'el único' por los elfos. La combinación de ambos nombres es también bastante frequente y podría traducirse como 'El único padre de todo'. Es considerado como el creador y Dios único y absoluto del Universo o Eä. Es el dios todopoderoso de la Tierra Media y de Arda, creador de los Valar y Maiar.",
             "img":"/img/eru_iluvatar.webp",
             "link":"https://lotr.fandom.com/wiki/Eru_Il%C3%BAvatar",
             "race":"God",
-            "progenitor":"No",
-            "descendant":"Ainur,Elfos,Humanos",
-            "couple":"No",
+            "progenitor":["No"],
+            "descendant":["Ainur","Elfos","Humanos"],
+            "couple":["No"],
             "siblings":["No"],
             "related":["Ainur"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-[#ffff]",
+            "marco":"/img/ui/valar_frame.webp"
         }
     ],
     [
@@ -22,12 +23,13 @@
             "img":"/img/vaire.webp",
             "link":"https://lotr.fandom.com/wiki/Vair%C3%AB",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"Mandos",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["Mandos"],
             "siblings":["No"],
             "related":["No"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Mandos",
@@ -35,12 +37,13 @@
             "img":"/img/Mandos.webp",
             "link":"https://lotr.fandom.com/wiki/Mandos",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"Vairë",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["Vairë"],
             "siblings":["Nienna","Irmo"],
             "related":["No"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Nienna",
@@ -48,12 +51,13 @@
             "img":"/img/Nienna.webp",
             "link":"https://lotr.fandom.com/wiki/Nienna",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"No",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["No"],
             "siblings":["Mandos","Irmo"],
             "related":["No"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Irmo",
@@ -61,12 +65,13 @@
             "img":"/img/Irmo.webp",
             "link":"https://lotr.fandom.com/wiki/L%C3%B3rien_(Vala)",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"Estë",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["Estë"],
             "siblings":["Mandos","Nienna"],
             "related":["No"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Estë",
@@ -74,12 +79,13 @@
             "img":"/img/Este.webp",
             "link":"https://lotr.fandom.com/wiki/Est%C3%AB",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"Irmo",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["Irmo"],
             "siblings":["No"],
             "related":["Melian"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Vána",
@@ -87,12 +93,13 @@
             "img":"/img/Vana.webp",
             "link":"https://lotr.fandom.com/wiki/V%C3%A1na",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"Oromë",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["Oromë"],
             "siblings":["Yavanna"],
             "related":["Melian","Arien"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Oromë",
@@ -100,25 +107,27 @@
             "img":"/img/Orome.webp",
             "link":"https://lotr.fandom.com/wiki/Orom%C3%AB",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"Vána",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["Vána"],
             "siblings":["Nessa"],
             "related":["Tillion","Pallando","Alatar"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Nessa",
             "info":"Ama a los ciervos, y ellos van detrás de su séquito toda vez que ella se interna en las tierras salvajes, pero los vence en la carrera, veloz como una flecha con el viento en los cabellos. La danza la deleita, y danza en Valinor en los prados siempre verdes.",
             "img":"/img/Nessa.webp",
-            "link":"https://lotr.fandom.com/wiki/Orom%C3%AB",
+            "link":"https://lotr.fandom.com/wiki/Nessa",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"Tulkas",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["Tulkas"],
             "siblings":["Oromë"],
             "related":["No"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Tulkas",
@@ -126,12 +135,13 @@
             "img":"/img/Tulkas.webp",
             "link":"https://lotr.fandom.com/wiki/Tulkas",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"Nessa",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["Nessa"],
             "siblings":["No"],
             "related":["No"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Yavanna",
@@ -139,12 +149,13 @@
             "img":"/img/Yavanna.webp",
             "link":"https://lotr.fandom.com/wiki/Yavanna",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"Ents",
-            "couple":"Aulë",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["Ents"],
+            "couple":["Aulë"],
             "siblings":["Vána"],
             "related":["Aiwendil (Radagast)"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Aulë",
@@ -152,12 +163,13 @@
             "img":"/img/Aule.webp",
             "link":"https://lotr.fandom.com/wiki/Aul%C3%AB",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"Dwarves",
-            "couple":"Yavanna",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["Dwarves"],
+            "couple":["Yavanna"],
             "siblings":["No"],
             "related":["Curumo (Saruman)","Mairon (Sauron)"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Melkor_(Morgoth)",
@@ -165,12 +177,13 @@
             "img":"/img/Morgoth.webp",
             "link":"https://lotr.fandom.com/wiki/Morgoth",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"No",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["No"],
             "siblings":["Manwë Súlimo"],
             "related":["Mairon (Sauron)","Balrogs (Corrupted Maia)","Draugluin","Gothmog","Durin's Bane","Ungoliant","Glaurung"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Manwë_Súlimo",
@@ -178,12 +191,13 @@
             "img":"/img/Manwe.webp",
             "link":"https://lotr.fandom.com/wiki/Manw%C3%AB",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"Varda",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["Varda"],
             "siblings":["Melkor (Morgoth)"],
             "related":["Eönwë","Olórin (Gandalf)","Thorondor"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Varda",
@@ -191,12 +205,13 @@
             "img":"/img/Varda.webp",
             "link":"https://lotr.fandom.com/wiki/Varda",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"Manwë Súlimo",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["Manwë Súlimo"],
             "siblings":["No"],
             "related":["Olórin (Gandalf)","Ilmarë"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         },
         {
             "nombre":"Ulmo",
@@ -204,12 +219,29 @@
             "img":"/img/Ulmo.webp",
             "link":"https://lotr.fandom.com/wiki/Ulmo",
             "race":"Valar",
-            "progenitor":"Eru Ilúvatar",
-            "descendant":"No",
-            "couple":"No",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["No"],
             "siblings":["No"],
             "related":["No"],
-            "color_bg":"bg-[#ffff]"
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
+        }
+    ],
+    [
+            {
+            "nombre":"Ulmo",
+            "info":"Está sólo. No habita mucho tiempo en parte alguna sino que se traslada a su antojo por las aguas profundas de la Tierra o debajo de ella. Raras veces asistía a los consejos de los Valar, a menos que se debatieran grandes asuntos. Siempre está presente en toda Arda y por tanto no necesita lugar de descanso.",
+            "img":"/img/Ulmo.webp",
+            "link":"https://lotr.fandom.com/wiki/Ulmo",
+            "race":"Valar",
+            "progenitor":["Eru Ilúvatar"],
+            "descendant":["No"],
+            "couple":["No"],
+            "siblings":["No"],
+            "related":["No"],
+            "color_bg":"border-[#9d342e] border-2 bg-gradient-to-r from-[#cb3d17] via-[#f3cb00] to-[#cb3d17]",
+            "marco":"/img/ui/valar_frame.webp"
         }
     ]
   ]

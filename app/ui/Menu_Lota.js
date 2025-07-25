@@ -11,7 +11,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu}) => {
     ]
     return(
 
-      <nav className="fixed top-0 w-full bg-black/60 z-50">
+      <nav className="fixed top-0 w-full bg-black/60 z-[1000]">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center">

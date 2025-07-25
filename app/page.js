@@ -176,16 +176,16 @@ const Home = () => {
         <RacesSection
           data={data}
           index={0}
-          h={16}
-          w={80}
+          h={10}
+          w={50}
           order={"flex mb-5"}
         />
 
         <RacesSection
           data={data}
           index={1}
-          h={16}
-          w={60}
+          h={10}
+          w={50}
           img_bg="valar.webp"
         />
 

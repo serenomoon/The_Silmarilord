@@ -5,8 +5,6 @@ export const FrameButton = ({ id, name, wiki, info, img, marco, color_bg, h, w, 
 
     const zin = 999 - zindex
     const zin_string = zin.toString()
-    console.log(zin_string);
-    console.log(typeof(zin_string));
     return (
         <div className="relative w-[18vw] h-[20vw] flex justify-center items-center mx-auto"
             style={{zIndex:zin_string}}

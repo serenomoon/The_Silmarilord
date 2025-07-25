@@ -81,7 +81,7 @@ export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w, zInd
           style={{zIndex:zIndex}}
         >
           <div className="relative flex flex-col h-full font-sans text-yellow-500/60 bg-gray-900">
-            <div className="p-2">
+            <div className="p-2 overflow-y-auto scrollbar-custom">
               <h4 className="text-center font-ringm text-[1.5vw]">Summary</h4>
               <p className="text-sm text-[1.2vw]">{info}</p>
             </div>

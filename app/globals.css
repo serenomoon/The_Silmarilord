@@ -35,3 +35,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .scrollbar-custom {
+    scrollbar-width: thin;
+    scrollbar-color: #101828 #eab308; /* thumb color, track color */
+  }
+
+  /* .scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+  } */
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: #101828;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #eab308; /* indigo-600 */
+    /* border-radius: 9999px; */
+    /* border: 2px solid #e5e7eb; */
+  }
+}

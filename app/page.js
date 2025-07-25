@@ -147,9 +147,9 @@ const Home = () => {
 
       <div className="relative">
 
-        <div className="absolute -top-[1.9vw] -left-[3vw] w-[23vw] z-10 rounded-[3rem]">
+        <div className="absolute -top-[1.9vw] -left-[3.5vw] w-[23vw] z-10 rounded-[3rem]">
           <Image
-            src="/img/ui/moria_door_left.png"
+            src="/img/ui/moria_door_left.webp"
             alt="Banner"
             width={500}
             height={0}
@@ -162,7 +162,7 @@ const Home = () => {
 
         <div className="absolute -top-[1.8vw] -right-[4vw] w-[23vw] z-10 rounded-[4rem]">
           <Image
-            src="/img/ui/moria_door_right.png"
+            src="/img/ui/moria_door_right.webp"
             alt="Banner"
             width={500}
             height={0}
@@ -189,9 +189,17 @@ const Home = () => {
           img_bg="valar.webp"
         />
 
-        <div className="absolute bottom-0 -left-[.8vw] w-[18vw]">
+        <RacesSection
+          data={data}
+          index={2}
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+        />
+
+        <div className="absolute bottom-0 -left-[.6vw] w-[16.5vw]">
           <Image
-            src="/img/ui/moria_door_bottom_left.png"
+            src="/img/ui/moria_door_bottom_left.webp"
             alt="Banner"
             width={500}
             height={0}
@@ -202,9 +210,9 @@ const Home = () => {
           />
         </div>
 
-        <div className="absolute bottom-0 -right-[3.2vw] w-[19vw]">
+        <div className="absolute bottom-0 -right-[2.7vw] w-[17vw]">
           <Image
-            src="/img/ui/moria_door_bottom_right.png"
+            src="/img/ui/moria_door_bottom_right.webp"
             alt="Banner"
             width={500}
             height={0}
@@ -223,8 +231,12 @@ const Home = () => {
           alt="Banner"
           width={1920}
           height={0}
-          className="w-full h-auto object-contain drop-shadow-[0_0_20px_rgba(0,200,255,0.8)]"
-          style={{ filter: "brightness(0) invert(1)" }}
+          className="w-full h-auto object-contain"
+          style={{ 
+                filter: "brightness(0) invert(1) drop-shadow(0 0 15px rgba(100, 200, 255, 0.8))",
+                mixBlendMode: "screen",
+                opacity: "0.9"
+              }}
         />
       </div>
 

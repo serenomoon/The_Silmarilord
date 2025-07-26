@@ -1,12 +1,13 @@
 import Image from "next/image"
 import { AnimatedButton } from "./AnimatedButton"
+import { useEffect } from "react"
 
-export const FrameButton = ({ id, name, wiki, info, img, marco, color_bg, h, w, zindex, progenitor ,descendant ,couple ,siblings ,related }) => {
+export const FrameButton = ({name, wiki, info, img, marco, color_bg, h, w, indexes, progenitor ,descendant ,couple ,siblings ,related, isLast }) => {
 
-    const zin = 999 - zindex
-    const zin_string = zin.toString()
+    const zin_string = indexes.toString()
+    const nameWithSpace = name.replace(/_/g, " ");
     return (
-        <div className="relative w-[18vw] h-[20vw] flex justify-center items-center mx-auto"
+        <div id={`${nameWithSpace}`} className="relative w-[18vw] h-[20vw] flex justify-center items-center mx-auto"
             style={{zIndex:zin_string}}
         >
             {/* Contenedor de la imagen de contenido - CENTRADA */}
@@ -40,7 +41,6 @@ export const FrameButton = ({ id, name, wiki, info, img, marco, color_bg, h, w, 
                     </span> */}
                     <div className="absolute bottom-4 font-ringm left-1/2 -translate-x-1/2">
                         <AnimatedButton 
-                            id={id} 
                             name={name} 
                             wiki={wiki} 
                             info={info} 

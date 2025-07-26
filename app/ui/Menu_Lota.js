@@ -1,75 +1,206 @@
 import Image from "next/image";
-import {Menu,X,} from "lucide-react"
+import { Menu, X } from "lucide-react";
+import { useState, useRef, useEffect } from "react";
 
-export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu}) => {
-    const menuItems = [
-        { href: "#Home", label: "Home" },
-        { href: "#Valar0", label: "Valar" },
-        { href: "#", label: "Elfs" },
-        { href: "#", label: "Dwarves" },
-        { href: "#", label: "Humans" },
-    ]
-    return(
+export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
+  const [isElfsOpen, setIsElfsOpen] = useState(false);
+  const elfMenuRef = useRef(null);
+  const submenuRef = useRef(null);
 
-      <nav className="fixed top-0 w-full bg-black/60 z-[1000]">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex justify-between items-center">
-            <div className="flex items-center">
-              {/* <Image
-                src="/vercel.svg"
-                width={500}
-                height={500}
-                alt="Byluco logo"
-                className="w-8 h-8 mr-2"
-                /> */}
-              <div className="text-2xl text-yellow-500/90 text-shadow-lg/80 font-ringm">TS</div>
-            </div>
+  const handleClick = (id) => {
+    if (id === "Home") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    } else {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+    closeMenu();
+    setIsElfsOpen(false); // Cerrar submenú al seleccionar cualquier opción
+  };
 
-            {/* Desktop Menu */}
-            <div className="hidden md:flex space-x-6">
-              {menuItems.map((item,i) => (
-                  <a key={i} href={item.href} className="font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors">
-                  {item.label}
-                </a>
+  const handleElfsClick = (e, href) => {
+    if (window.innerWidth < 768) { // Solo para móvil
+      e.preventDefault();
+      setIsElfsOpen(!isElfsOpen);
+    } else {
+      handleClick(href);
+    }
+  };
+
+  // Cerrar el menú al hacer click fuera (solo móvil)
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (elfMenuRef.current && !elfMenuRef.current.contains(event.target)) {
+        setIsElfsOpen(false);
+      }
+    };
+
+    if (window.innerWidth < 768) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  const menuItems = [
+    { href: "Home", label: "Home" },
+    { href: "Ainur", label: "Ainur" },
+    {
+      href: "Elfs",
+      label: "Elfs",
+      submenu: [
+        { href: "Minyar", label: "Minyar" },
+        { href: "Vanyar", label: "Vanyar" }
+      ]
+    },
+    { href: "", label: "Dwarves" },
+    { href: "", label: "Humans" },
+  ];
+
+  const renderMenuItem = (item, i) => {
+    if (item.submenu) {
+      return (
+        <div
+          key={i}
+          className="relative group"
+          ref={elfMenuRef}
+          onMouseEnter={() => window.innerWidth >= 768 && setIsElfsOpen(true)}
+          onMouseLeave={() => window.innerWidth >= 768 && setTimeout(() => {
+            if (!submenuRef.current?.matches(':hover')) {
+              setIsElfsOpen(false);
+            }
+          }, 100)}
+        >
+          <button
+            className="cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
+            onClick={(e) => handleElfsClick(e, item.href)}
+          >
+            {item.label}
+          </button>
+          <div
+            ref={submenuRef}
+            className={`${isElfsOpen ? 'block' : 'hidden'} md:group-hover:block absolute -left-4 mt-0 pt-5 w-48  rounded-md shadow-lg z-1001`}
+            onMouseEnter={() => window.innerWidth >= 768 && setIsElfsOpen(true)}
+            onMouseLeave={() => window.innerWidth >= 768 && setIsElfsOpen(false)}
+          >
+            <div className="bg-black/90">
+              {item.submenu.map((subItem, j) => (
+                <button
+                  key={j}
+                  className="block cursor-pointer w-full text-left px-4 py-2 font-ringm hover:text-[#df891c] transition-colors"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleClick(subItem.href);
+                  }}
+                >
+                  {subItem.label}
+                </button>
               ))}
             </div>
+          </div>
+        </div>
+      );
+    }
+    return (
+      <button
+        key={i}
+        className="cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
+        onClick={() => handleClick(item.href)}
+      >
+        {item.label}
+      </button>
+    );
+  };
 
-            {/* Mobile Menu Button */}
-            <button
-              onClick={toggleMenu}
-              className="md:hidden p-2 rounded-lg hover:bg-[#f4e7d2] transition-colors"
-              aria-label="Toggle menu"
-              >
-              {isMenuOpen ? <X className="w-6 h-6 text-[#df891c]" /> : <Menu className="w-6 h-6 text-[#df891c]" />}
-            </button>
+  return (
+    <nav className="fixed top-0 w-full bg-black/60 z-[1000]">
+      <div className="container mx-auto px-4 py-4">
+        <div className="flex justify-between items-center">
+          <div className="flex items-center">
+            <div className="text-2xl text-yellow-500/90 text-shadow-lg/80 font-ringm">TS</div>
           </div>
 
-          {/* Mobile Menu Dropdown */}
-          {isMenuOpen && (
-              <div className="md:hidden mt-4 pb-4 border-t border-[#f4e7d2]">
-              <div className="flex flex-col space-y-4 pt-4">
-                {menuItems.map((item,i) => (
-                    <a
-                      key={i}
-                      href={item.href}
-                      onClick={closeMenu}
-                      className="text-slate-600 hover:text-[#df891c] transition-colors py-2 px-4 rounded-lg hover:bg-[#f4e7d2]"
-                    >
-                    {item.label}
-                  </a>
-                ))}
-                <div className="pt-2 border-t border-[#f4e7d2]">
+          {/* Desktop Menu */}
+          <div className="hidden md:flex space-x-6">
+            {menuItems.map((item, i) => renderMenuItem(item, i))}
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={toggleMenu}
+            className="md:hidden p-2 rounded-lg hover:bg-[#f4e7d2] transition-colors"
+            aria-label="Toggle menu"
+          >
+            {isMenuOpen ? <X className="w-6 h-6 text-[#df891c]" /> : <Menu className="w-6 h-6 text-[#df891c]" />}
+          </button>
+        </div>
+
+        {/* Mobile Menu Dropdown */}
+        {isMenuOpen && (
+          <div className="md:hidden mt-4 pb-4 border-t border-[#f4e7d2]">
+            <div className="flex flex-col space-y-4 pt-4">
+              {menuItems.map((item, i) => {
+                if (item.submenu) {
+                  return (
+                    <div key={i} className="flex flex-col">
+                      <button
+                        className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
+                        onClick={(e) => {
+                          if (isElfsOpen) {
+                            handleClick(item.href);
+                          } else {
+                            e.preventDefault();
+                            setIsElfsOpen(true);
+                          }
+                        }}
+                      >
+                        {item.label}
+                      </button>
+                      <div className={`${isElfsOpen ? 'block' : 'hidden'} pl-4 mt-2 space-y-2`}>
+                        {item.submenu.map((subItem, j) => (
+                          <button
+                            key={j}
+                            className="block w-full text-left font-ringm hover:text-[#df891c] transition-colors"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleClick(subItem.href);
+                            }}
+                          >
+                            {subItem.label}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                }
+                return (
                   <button
-                    className="w-full bg-gradient-to-r from-[#df891c] to-[#e6a347] hover:from-[#c67a15] hover:to-[#df891c] text-white"
-                    onClick={closeMenu}
-                    >
-                    <a href="#contact">Contactar Ahora</a>
+                    key={i}
+                    className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
+                    onClick={() => handleClick(item.href)}
+                  >
+                    {item.label}
                   </button>
-                </div>
+                );
+              })}
+              <div className="pt-2 border-t border-[#f4e7d2]">
+                <button
+                  className="w-full bg-gradient-to-r from-[#df891c] to-[#e6a347] hover:from-[#c67a15] hover:to-[#df891c] text-white"
+                  onClick={closeMenu}
+                >
+                  <a href="#contact">Contactar Ahora</a>
+                </button>
               </div>
             </div>
-          )}
-        </div>
-      </nav>
-)
-}
+          </div>
+        )}
+      </div>
+    </nav>
+  );
+};

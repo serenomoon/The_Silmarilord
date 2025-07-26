@@ -5,11 +5,20 @@ import { GiFamilyTree } from "react-icons/gi";
 import { MdOutlineTextsms } from "react-icons/md";
 import Image from "next/image";
 
-export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w, zIndex, progenitor ,descendant ,couple ,siblings ,related }) => {
+export const AnimatedButton = ({ name, wiki, info, img, color_bg, h, w, zIndex, progenitor ,descendant ,couple ,siblings ,related }) => {
   const visibleName = name.replace(/_/g, "\u00A0");
   const [popup, setPopup] = useState(null);
   const [isHovering, setIsHovering] = useState(false);
   let leaveTimeout;
+
+
+  const handleClick = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  };
+
 
   const togglePopup = (type) => {
     setPopup((prev) => (prev === type ? null : type));
@@ -20,7 +29,6 @@ export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w, zInd
 
   return (
     <div 
-      id={id}
       className="relative flex flex-col items-center"
       style={{zIndex:zIndex}}
       onMouseEnter={() => {
@@ -41,7 +49,9 @@ export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w, zInd
           width: `${wid}vw`
         }}
       >
-        <span className={`z-10 capitalize inline-flex items-center justify-center ${color_bg} rounded-[25px] text-black leading-[60px] text-[1.1vw] tracking-widest transition-all duration-500 group-hover:!w-0 group-hover:opacity-0`}
+        <span 
+        className={`z-10 capitalize inline-flex items-center justify-center ${color_bg} rounded-[25px] text-black leading-[60px] tracking-widest transition-all duration-500 group-hover:!w-0 group-hover:opacity-0
+        ${visibleName.length > 17 ? "text-[.9vw]" : "text-[1.1vw]"}`}
           style={{
             height: `${hei}vw`,
             width: `${wid}vw`,
@@ -104,8 +114,10 @@ export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w, zInd
             <span className="font-bold block">Progenitor/s</span>
             <ul>
               {progenitor.map((prog, i) => (
-                <li key={i}>{prog}</li>
-              ))}
+                  <li key={i}>
+                    <button className="cursor-pointer" onClick={() => handleClick(prog)}>{prog}</button>
+                  </li>
+                ))}
             </ul>
           </div>
         )}
@@ -116,8 +128,10 @@ export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w, zInd
             <span className="font-bold block">Descendant</span>
             <ul>
               {descendant.map((prog, i) => (
-                <li key={i}>{prog}</li>
-              ))}
+                  <li key={i}>
+                    <button className="cursor-pointer" onClick={() => handleClick(prog)}>{prog}</button>
+                  </li>
+                ))}
             </ul>
           </div>
         )}
@@ -128,8 +142,10 @@ export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w, zInd
             <span className="font-bold block">Couple</span>
             <ul>
               {couple.map((prog, i) => (
-                <li key={i}>{prog}</li>
-              ))}
+                  <li key={i}>
+                    <button className="cursor-pointer" onClick={() => handleClick(prog)}>{prog}</button>
+                  </li>
+                ))}
             </ul>
           </div>
         )}
@@ -140,8 +156,10 @@ export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w, zInd
             <span className="font-bold block">Siblings</span>
             <ul>
               {siblings.map((prog, i) => (
-                <li key={i}>{prog}</li>
-              ))}
+                  <li key={i}>
+                    <button className="cursor-pointer" onClick={() => handleClick(prog)}>{prog}</button>
+                  </li>
+                ))}
             </ul>
           </div>
         )}
@@ -152,8 +170,10 @@ export const AnimatedButton = ({ id, name, wiki, info, img, color_bg, h, w, zInd
             <span className="font-bold block">Related</span>
             <ul>
               {related.map((prog, i) => (
-                <li key={i}>{prog}</li>
-              ))}
+                  <li key={i}>
+                    <button className="cursor-pointer" onClick={() => handleClick(prog)}>{prog}</button>
+                  </li>
+                ))}
             </ul>
           </div>
         )}

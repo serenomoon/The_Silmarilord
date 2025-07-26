@@ -10,7 +10,18 @@ import { RacesSection } from "./sections/RacesSection";
 import { Foot } from "./ui/Foot";
 
 const Home = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [globalIndex, setGlobalIndex] = useState(999);
+
+
+  // Calcula cuántos elementos hay antes de cada sección
+  const getStartingIndex = (sectionIndex) => {
+    let totalElementsBefore = 0;
+    for (let i = 0; i < sectionIndex; i++) {
+      totalElementsBefore += data.lotr_info[i].length;
+    }
+    return globalIndex - totalElementsBefore;
+  };
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -104,7 +115,7 @@ const Home = () => {
               alt="Banner"
               fill
               className="object-contain w-full h-full"
-              style={{ 
+              style={{
                 filter: "brightness(0) invert(1) drop-shadow(0 0 15px rgba(100, 200, 255, 0.8))",
                 mixBlendMode: "screen",
                 opacity: "0.9"
@@ -154,7 +165,7 @@ const Home = () => {
             width={500}
             height={0}
             className="w-full h-auto"
-            style={{ 
+            style={{
               filter: "drop-shadow(0 0 10px rgba(100, 200, 255, 0.9))",
             }}
           />
@@ -167,34 +178,83 @@ const Home = () => {
             width={500}
             height={0}
             className="object-contain w-full h-full"
-            style={{ 
+            style={{
               filter: "drop-shadow(0 0 10px rgba(100, 200, 255, 0.9))",
             }}
           />
         </div>
 
+        {/* ILLUVATAR */}
         <RacesSection
           data={data}
           index={0}
+          startingIndex={getStartingIndex(0)} // 999 - 0 = 999
           h={10}
           w={50}
           order={"flex mb-5"}
+          setGlobalIndex={setGlobalIndex}
+          title={"God"}
         />
 
+        {/* VALAR */}
         <RacesSection
           data={data}
           index={1}
+          startingIndex={getStartingIndex(1)} // 999 - (elementos en sección 0)
           h={10}
           w={50}
           img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"Ainur"}
         />
 
+        {/* MAIA */}
         <RacesSection
           data={data}
           index={2}
+          startingIndex={getStartingIndex(2)} // 999 - (elementos en sección 0 + sección 1)
           h={10}
           w={50}
           img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* ENTS */}
+        <RacesSection
+          data={data}
+          index={3}
+          startingIndex={getStartingIndex(3)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"Ents"}
+        />
+
+        {/* MINYAR */}
+        <RacesSection
+          data={data}
+          index={4}
+          startingIndex={getStartingIndex(4)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          title={"Elfs"}
+        />
+
+        {/* VANYAR */}
+        <RacesSection
+          data={data}
+          index={5}
+          startingIndex={getStartingIndex(5)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
         />
 
         <div className="absolute bottom-0 -left-[.6vw] w-[16.5vw]">
@@ -204,7 +264,7 @@ const Home = () => {
             width={500}
             height={0}
             className="w-full h-auto"
-            style={{ 
+            style={{
               filter: "drop-shadow(0 0 10px rgba(100, 200, 255, 0.9))",
             }}
           />
@@ -217,7 +277,7 @@ const Home = () => {
             width={500}
             height={0}
             className="w-full h-auto"
-            style={{ 
+            style={{
               filter: "drop-shadow(0 0 10px rgba(100, 200, 255, 0.9))",
             }}
           />
@@ -232,11 +292,11 @@ const Home = () => {
           width={1920}
           height={0}
           className="w-full h-auto object-contain"
-          style={{ 
-                filter: "brightness(0) invert(1) drop-shadow(0 0 15px rgba(100, 200, 255, 0.8))",
-                mixBlendMode: "screen",
-                opacity: "0.9"
-              }}
+          style={{
+            filter: "brightness(0) invert(1) drop-shadow(0 0 15px rgba(100, 200, 255, 0.8))",
+            mixBlendMode: "screen",
+            opacity: "0.9"
+          }}
         />
       </div>
 

@@ -40,19 +40,39 @@ export const RacesSection = ({
                 <div className="w-[70vw] mx-[1vw] rounded-lg">
                     {title != "No"
                         ?
+                        <>
+                        <div 
+                            className="bg-yellow-500/80 w-full h-0.5 mt-4"
+                            style={{
+                                boxShadow: `
+                                    0 -5px 10px rgba(255, 215, 0, 0.8),
+                                    0 5px 10px rgba(255, 255, 0, 0.8)
+                                `  
+                            }}
+                        ></div>
                         <h1
-                            className="text-yellow-500/80 text-[3vw] font-ringm text-center"
+                            className="text-yellow-500/80 text-[3vw] font-ringm text-center py-2"
                             id={title}
                             style={{
                                 textShadow: `
-                                    0 0 5px rgba(255, 215, 0, 0.8),
-                                    0 0 10px rgba(255, 255, 0, 0.6),
-                                    0 0 15px rgba(255, 255, 0, 0.4)
-                                    `
+                                0 0 5px rgba(255, 215, 0, 0.8),
+                                0 0 10px rgba(255, 255, 0, 0.6),
+                                0 0 15px rgba(255, 255, 0, 0.4)
+                                `
                             }}
-                        >
+                            >
                             {title}
                         </h1>
+                        <div 
+                            className="bg-yellow-500/80 w-full h-0.5 mb-4"
+                            style={{
+                                boxShadow: `
+                                    0 -5px 10px rgba(255, 215, 0, 0.8),
+                                    0 5px 10px rgba(255, 255, 0, 0.8)
+                                `  
+                            }}
+                        ></div>
+                        </>
                         :
                         <></>
                     }

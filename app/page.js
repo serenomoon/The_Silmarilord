@@ -257,6 +257,81 @@ const Home = () => {
           title={"No"}
         />
 
+        {/* TATYAR */}
+        <RacesSection
+          data={data}
+          index={6}
+          startingIndex={getStartingIndex(6)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          title={"No"}
+        />
+
+        {/* ÑOLDOR */}
+        <RacesSection
+          data={data}
+          index={7}
+          startingIndex={getStartingIndex(7)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* NELYAR */}
+        <RacesSection
+          data={data}
+          index={8}
+          startingIndex={getStartingIndex(8)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Teleri-Falmari */}
+        <RacesSection
+          data={data}
+          index={9}
+          startingIndex={getStartingIndex(9)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Teleri-Sindar */}
+        <RacesSection
+          data={data}
+          index={10}
+          startingIndex={getStartingIndex(10)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Teleri-Nandor */}
+        <RacesSection
+          data={data}
+          index={11}
+          startingIndex={getStartingIndex(11)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
         <div className="absolute bottom-0 -left-[.6vw] w-[16.5vw]">
           <Image
             src="/img/ui/moria_door_bottom_left.webp"

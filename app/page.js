@@ -332,6 +332,59 @@ const Home = () => {
           title={"No"}
         />
 
+        {/* Edain-Sindar */}
+        <RacesSection
+          data={data}
+          index={12}
+          startingIndex={getStartingIndex(12)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          order={"grid sm:grid-cols-1 grid-cols-1"}
+          setGlobalIndex={setGlobalIndex}
+          title={"Half-Elves"}
+        />
+
+        {/* Peredhil */}
+        <RacesSection
+          data={data}
+          index={13}
+          startingIndex={getStartingIndex(13)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Peredhil-Mortal */}
+        <RacesSection
+          data={data}
+          index={14}
+          startingIndex={getStartingIndex(14)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          order={"grid sm:grid-cols-1 grid-cols-1"}
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* DWARVES */}
+        {/* King of Durin's Folk */}
+        <RacesSection
+          data={data}
+          index={15}
+          startingIndex={getStartingIndex(15)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"Dwarves"}
+        />
+
+        
+
         <div className="absolute bottom-0 -left-[.6vw] w-[16.5vw]">
           <Image
             src="/img/ui/moria_door_bottom_left.webp"

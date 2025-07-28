@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 
 export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
-  const [isElfsOpen, setIsElfsOpen] = useState(false);
+  const [openSubmenu, setOpenSubmenu] = useState(null);
   const elfMenuRef = useRef(null);
   const submenuRef = useRef(null);
 
@@ -20,13 +20,13 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
       }
     }
     closeMenu();
-    setIsElfsOpen(false); // Cerrar submenú al seleccionar cualquier opción
+    setOpenSubmenu(null); // Cerrar submenú al seleccionar cualquier opción
   };
 
-  const handleElfsClick = (e, href) => {
+  const handleElfsClick = (e, href, label) => {
     if (window.innerWidth < 768) { // Solo para móvil
       e.preventDefault();
-      setIsElfsOpen(!isElfsOpen);
+      setOpenSubmenu(openSubmenu === label ? null : label);
     } else {
       handleClick(href);
     }
@@ -36,7 +36,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (elfMenuRef.current && !elfMenuRef.current.contains(event.target)) {
-        setIsElfsOpen(false);
+        setOpenSubmenu(null);
       }
     };
 
@@ -50,17 +50,53 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
 
   const menuItems = [
     { href: "Home", label: "Home" },
-    { href: "Ainur", label: "Ainur" },
+    {
+      href: "Ainur",
+      label: "Ainur",
+      submenu: [
+        { href: "Valar", label: "Valar" },
+        { href: "Maia", label: "Maia" }
+      ]
+    },
     {
       href: "Elfs",
       label: "Elfs",
       submenu: [
         { href: "Minyar", label: "Minyar" },
-        { href: "Vanyar", label: "Vanyar" }
+        { href: "Vanyar", label: "Vanyar" },
+        { href: "Tatyar", label: "Tatyar" },
+        { href: "Ñoldor", label: "Ñoldor" },
+        { href: "Nelyar", label: "Nelyar" },
+        { href: "Nelyar", label: "Nelyar" },
+        { href: "Teleri-Falmari", label: "Teleri-Falmari" },
+        { href: "Teleri-Sindar", label: "Teleri-Sindar" },
+        { href: "Teleri-Nandor", label: "Teleri-Nandor" },
       ]
     },
-    { href: "", label: "Dwarves" },
-    { href: "", label: "Humans" },
+    {
+      href: "Half-Elves",
+      label: "Half-Elves",
+      submenu: [
+        { href: "Edain-Sindar", label: "Edain-Sindar" },
+        { href: "Peredhil", label: "Peredhil" },
+        { href: "Peredhil-Mortal", label: "Peredhil-Mortal" },
+      ]
+    },
+    {
+      href: "Dwarves",
+      label: "Dwarves",
+      submenu: [
+        { href: "KDF", label: "KDF" }
+      ]
+    },
+    { href: "", label: "Men" },
+    {
+      href: "Others",
+      label: "Others",
+      submenu: [
+        { href: "Ents", label: "Ents" }
+      ]
+    },
   ];
 
   const renderMenuItem = (item, i) => {
@@ -70,24 +106,24 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
           key={i}
           className="relative group"
           ref={elfMenuRef}
-          onMouseEnter={() => window.innerWidth >= 768 && setIsElfsOpen(true)}
+          onMouseEnter={() => window.innerWidth >= 768 && setOpenSubmenu(item.label)}
           onMouseLeave={() => window.innerWidth >= 768 && setTimeout(() => {
             if (!submenuRef.current?.matches(':hover')) {
-              setIsElfsOpen(false);
+              setOpenSubmenu(null);
             }
           }, 100)}
         >
           <button
             className="cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
-            onClick={(e) => handleElfsClick(e, item.href)}
+            onClick={(e) => handleElfsClick(e, item.href, item.label)}
           >
             {item.label}
           </button>
           <div
             ref={submenuRef}
-            className={`${isElfsOpen ? 'block' : 'hidden'} md:group-hover:block absolute -left-4 mt-0 pt-5 w-48  rounded-md shadow-lg z-1001`}
-            onMouseEnter={() => window.innerWidth >= 768 && setIsElfsOpen(true)}
-            onMouseLeave={() => window.innerWidth >= 768 && setIsElfsOpen(false)}
+            className={`${openSubmenu === item.label ? 'block' : 'hidden'} md:group-hover:block absolute -left-4 mt-0 pt-5 w-48 rounded-md shadow-lg z-1001`}
+            onMouseEnter={() => window.innerWidth >= 768 && setOpenSubmenu(item.label)}
+            onMouseLeave={() => window.innerWidth >= 768 && setOpenSubmenu(null)}
           >
             <div className="bg-black/90">
               {item.submenu.map((subItem, j) => (
@@ -152,17 +188,17 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                       <button
                         className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
                         onClick={(e) => {
-                          if (isElfsOpen) {
+                          if (openSubmenu === item.label) {
                             handleClick(item.href);
                           } else {
                             e.preventDefault();
-                            setIsElfsOpen(true);
+                            setOpenSubmenu(item.label);
                           }
                         }}
                       >
                         {item.label}
                       </button>
-                      <div className={`${isElfsOpen ? 'block' : 'hidden'} pl-4 mt-2 space-y-2`}>
+                      <div className={`${openSubmenu === item.label ? 'block' : 'hidden'} pl-4 mt-2 space-y-2`}>
                         {item.submenu.map((subItem, j) => (
                           <button
                             key={j}

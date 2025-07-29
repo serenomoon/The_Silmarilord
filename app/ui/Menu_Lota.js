@@ -86,10 +86,19 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
       href: "Dwarves",
       label: "Dwarves",
       submenu: [
-        { href: "KDF", label: "KDF" }
+        { href: "King of Durin's Folk", label: "KDF" },
+        { href: "King of the Broadbeam Dwarves", label: "KBD" },
+        { href: "Dwarves of Nogrod", label: "Nogrod" },
+        { href: "Dwarves of Durin's Folk", label: "Durin's Folk" }
       ]
     },
-    { href: "", label: "Men" },
+    {
+      href: "Men",
+      label: "Men",
+      submenu: [
+        { href: "Edain - House of Bëor", label: "House of Bëor" }
+      ]
+    },
     {
       href: "Others",
       label: "Others",

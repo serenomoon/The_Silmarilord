@@ -383,6 +383,56 @@ const Home = () => {
           title={"Dwarves"}
         />
 
+        {/* King of the Broadbeam Dwarves */}
+        <RacesSection
+          data={data}
+          index={16}
+          startingIndex={getStartingIndex(16)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          order={"grid sm:grid-cols-1 grid-cols-1"}
+          title={"No"}
+        />
+
+        {/* Dwarves of Nogrod */}
+        <RacesSection
+          data={data}
+          index={17}
+          startingIndex={getStartingIndex(17)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          title={"No"}
+        />
+
+        {/* Dwarves of Durin's Folk */}
+        <RacesSection
+          data={data}
+          index={18}
+          startingIndex={getStartingIndex(18)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Edain - House of Bëor */}
+        <RacesSection
+          data={data}
+          index={19}
+          startingIndex={getStartingIndex(19)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"Men"}
+        />
+
         
 
         <div className="absolute bottom-0 -left-[.6vw] w-[16.5vw]">

@@ -77,7 +77,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
       href: "Half-Elves",
       label: "Half-Elves",
       submenu: [
-        { href: "Edain-Sindar", label: "Edain-Sindar" },
+        { href: "Edain - Bëorians-Sindar", label: "Edain-Bëorians-Sindar" },
         { href: "Peredhil", label: "Peredhil" },
         { href: "Peredhil-Mortal", label: "Peredhil-Mortal" },
       ]
@@ -96,7 +96,11 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
       href: "Men",
       label: "Men",
       submenu: [
-        { href: "Edain - House of Bëor", label: "House of Bëor" }
+        { href: "Edain - Bëorians", label: "House of Bëor" },
+        { href: "Edain - Haladin", label: "Haladin" },
+        { href: "Edain - Hadorians", label: "Hadorians" },
+        { href: "Easterlings", label: "Easterlings" },
+        { href: "Númenoreans", label: "Númenoreans" },
       ]
     },
     {

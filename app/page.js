@@ -433,6 +433,54 @@ const Home = () => {
           title={"Men"}
         />
 
+        {/* Edain - Haladin */}
+        <RacesSection
+          data={data}
+          index={20}
+          startingIndex={getStartingIndex(20)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Edain - Hadorians */}
+        <RacesSection
+          data={data}
+          index={21}
+          startingIndex={getStartingIndex(21)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Easterlings */}
+        <RacesSection
+          data={data}
+          index={22}
+          startingIndex={getStartingIndex(22)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Numenorians */}
+        <RacesSection
+          data={data}
+          index={23}
+          startingIndex={getStartingIndex(23)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
         
 
         <div className="absolute bottom-0 -left-[.6vw] w-[16.5vw]">

@@ -481,6 +481,42 @@ const Home = () => {
           title={"No"}
         />
 
+        {/* Dúnedain-Arnor */}
+        <RacesSection
+          data={data}
+          index={24}
+          startingIndex={getStartingIndex(24)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Dúnedain-Arthedain */}
+        <RacesSection
+          data={data}
+          index={25}
+          startingIndex={getStartingIndex(25)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Dúnedain-Gondor */}
+        <RacesSection
+          data={data}
+          index={26}
+          startingIndex={getStartingIndex(26)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
         
 
         <div className="absolute bottom-0 -left-[.6vw] w-[16.5vw]">

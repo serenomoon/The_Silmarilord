@@ -101,6 +101,9 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
         { href: "Edain - Hadorians", label: "Hadorians" },
         { href: "Easterlings", label: "Easterlings" },
         { href: "Númenoreans", label: "Númenoreans" },
+        { href: "Dúnedain-Arnor", label: "Dúnedain-Arnor" },
+        { href: "Dúnedain-Arthedain", label: "Dúnedain-Arthedain" },
+        { href: "Dúnedain-Gondor", label: "Dúnedain-Gondor" },
       ]
     },
     {

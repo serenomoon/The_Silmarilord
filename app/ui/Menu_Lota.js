@@ -104,6 +104,8 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
         { href: "Dúnedain-Arnor", label: "Dúnedain-Arnor" },
         { href: "Dúnedain-Arthedain", label: "Dúnedain-Arthedain" },
         { href: "Dúnedain-Gondor", label: "Dúnedain-Gondor" },
+        { href: "Dúnedain", label: "Dúnedain" },
+        { href: "Reunited Kingdom", label: "Reunited Kingdom" },
       ]
     },
     {

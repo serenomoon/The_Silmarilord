@@ -517,6 +517,31 @@ const Home = () => {
           title={"No"}
         />
 
+        {/* Dúnedain */}
+        <RacesSection
+          data={data}
+          index={27}
+          startingIndex={getStartingIndex(27)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Reunited Kingdom */}
+        <RacesSection
+          data={data}
+          index={28}
+          startingIndex={getStartingIndex(28)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          title={"No"}
+        />
+
         
 
         <div className="absolute bottom-0 -left-[.6vw] w-[16.5vw]">

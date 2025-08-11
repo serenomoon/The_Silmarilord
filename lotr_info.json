@@ -5896,6 +5896,62 @@
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
             "marco":"/img/ui/dwarves_frame.webp"
+        },
+        {
+            "nombre":"Húrin_II",
+            "info":"Born in TA 2515, Húrin II was the son of Hallas. Húrin II succeeded his father as Steward in TA 2605. Sporadic warfare on Gondor's eastern and southern borders continued. Other than minor skirmishes no events are recorded during his rule. Húrin II died in TA 2628 after twenty-three years of rule at the age of 113 years old. He was followed by his son Belecthor I.",
+            "img":"/img/Hurin_II.webp", 
+            "link":"https://lotr.fandom.com/wiki/H%C3%BArin_II",
+            "race":"Stewards",
+            "progenitor":["Hallas"],
+            "descendant":["Belecthor I"],
+            "couple":["No"],
+            "siblings":["No"],
+            "related":["No"],
+            "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
+            "marco":"/img/ui/dwarves_frame.webp"
+        },
+        {
+            "nombre":"Belecthor_I",
+            "info":"Born in TA 2545, Belecthor I was the son of Húrin II. Belecthor I succeeded his father as Steward in TA 2628. The Corsairs of Umbar were the major threat to Gondor at the time, although no major events are recorded. Other than minor skirmishes no events are recorded during his rule. Belecthor had two children: Morwen, a daughter, and Orodreth. Belecthor I died in TA 2655 at the age of 110 years old after a rule of twenty-seven years. He was followed by his son Orodreth.",
+            "img":"/img/Belecthor_I.webp", 
+            "link":"https://lotr.fandom.com/wiki/Belecthor_I",
+            "race":"Stewards",
+            "progenitor":["Húrin II"],
+            "descendant":["Morwen(Gondor)", "Orodreth(Gondor)"],
+            "couple":["No"],
+            "siblings":["No"],
+            "related":["No"],
+            "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
+            "marco":"/img/ui/dwarves_frame.webp"
+        },
+        {
+            "nombre":"Orodreth(Gondor)",
+            "info":"Born in TA 2576, Orodreth was the son of Belecthor I. Orodreth succeeded his father as Steward in TA 2655. The Corsairs of Umbar were the major threat to Gondor at the time, although no major events are recorded. Orodreth died in TA 2685 at the age of 109 years old. He was followed by his son Ecthelion I.",
+            "img":"/img/Orodreth(Gondor).webp", 
+            "link":"https://lotr.fandom.com/wiki/Orodreth_of_Gondor",
+            "race":"Stewards",
+            "progenitor":["Belecthor I"],
+            "descendant":["Ecthelion I"],
+            "couple":["No"],
+            "siblings":["Morwen(Gondor)"],
+            "related":["No"],
+            "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
+            "marco":"/img/ui/dwarves_frame.webp"
+        },
+        {
+            "nombre":"Morwen(Gondor)",
+            "info":"Morwen was the daughter of the Steward Belecthor I, sister of Orodreth, sixteenth Ruling Steward of Gondor, and was the grandmother of Egalmoth, the eighteenth Ruling Steward of Gondor. Little is known about Morwen other than her lineage and the actions of her family, although she was a direct descendant of the House of Húrin. All of the Stewards after Egalmoth were directly descended from her.",
+            "img":"/img/Morwen(Gondor).webp", 
+            "link":"https://lotr.fandom.com/wiki/Morwen_(Gondor)",
+            "race":"Stewards",
+            "progenitor":["Belecthor I"],
+            "descendant":["Yes"],
+            "couple":["No"],
+            "siblings":["Orodreth(Gondor)"],
+            "related":["No"],
+            "color_bg":"border-[#3eb6d8] border-2 bg-[#f6e45c]",
+            "marco":"/img/ui/dwarves_frame.webp"
         }
     ]
   ]

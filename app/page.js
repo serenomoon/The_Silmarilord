@@ -655,8 +655,8 @@ const Home = () => {
         {/* Great Eagles */}
         <RacesSection
           data={data}
-          index={39}
-          startingIndex={getStartingIndex(39)} // 999 - (elementos en sección 0 + sección 1)
+          index={38}
+          startingIndex={getStartingIndex(38)} // 999 - (elementos en sección 0 + sección 1)
           h={10}
           w={50}
           img_bg="valar.webp"
@@ -667,8 +667,8 @@ const Home = () => {
         {/* Great Spiders */}
         <RacesSection
           data={data}
-          index={40}
-          startingIndex={getStartingIndex(40)} // 999 - (elementos en sección 0 + sección 1)
+          index={39}
+          startingIndex={getStartingIndex(39)} // 999 - (elementos en sección 0 + sección 1)
           h={10}
           w={50}
           img_bg="valar.webp"
@@ -680,8 +680,8 @@ const Home = () => {
         {/* Werewolves */}
         <RacesSection
           data={data}
-          index={41}
-          startingIndex={getStartingIndex(41)} // 999 - (elementos en sección 0 + sección 1)
+          index={40}
+          startingIndex={getStartingIndex(40)} // 999 - (elementos en sección 0 + sección 1)
           h={10}
           w={50}
           img_bg="valar.webp"
@@ -693,20 +693,20 @@ const Home = () => {
         {/* Dragons */}
         <RacesSection
           data={data}
-          index={42}
-          startingIndex={getStartingIndex(42)} // 999 - (elementos en sección 0 + sección 1)
+          index={41}
+          startingIndex={getStartingIndex(41)} // 999 - (elementos en sección 0 + sección 1)
           h={10}
           w={50}
           img_bg="valar.webp"
           setGlobalIndex={setGlobalIndex}
-          title={"Great Spiders"}
+          title={"Dragons"}
         />
 
         {/* Unknown */}
         <RacesSection
           data={data}
-          index={43}
-          startingIndex={getStartingIndex(43)} // 999 - (elementos en sección 0 + sección 1)
+          index={42}
+          startingIndex={getStartingIndex(42)} // 999 - (elementos en sección 0 + sección 1)
           h={10}
           w={50}
           img_bg="valar.webp"

@@ -20,11 +20,11 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
       }
     }
     closeMenu();
-    setOpenSubmenu(null); // Cerrar submenú al seleccionar cualquier opción
+    setOpenSubmenu(null);
   };
 
   const handleElfsClick = (e, href, label) => {
-    if (window.innerWidth < 768) { // Solo para móvil
+    if (window.innerWidth < 768) {
       e.preventDefault();
       setOpenSubmenu(openSubmenu === label ? null : label);
     } else {
@@ -32,7 +32,6 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
     }
   };
 
-  // Cerrar el menú al hacer click fuera (solo móvil)
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (elfMenuRef.current && !elfMenuRef.current.contains(event.target)) {
@@ -106,13 +105,27 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
         { href: "Dúnedain-Gondor", label: "Dúnedain-Gondor" },
         { href: "Dúnedain", label: "Dúnedain" },
         { href: "Reunited Kingdom", label: "Reunited Kingdom" },
+        { href: "Stewards", label: "Stewards" },
+        { href: "Dol Amroth", label: "Dol Amroth" },
+        { href: "Rhovanion", label: "Rhovanion" },
+        { href: "Rohan", label: "Rohan" },
+        { href: "Skin Changers", label: "Skin Changers" },
+        { href: "Princes of Ithilien", label: "Ithilien" },
+        { href: "Kings of Dale", label: "Dale" },
+        { href: "Chiefs of the Drúedain", label: "Drúedain" },
       ]
     },
+    { href: "Hobbits", label: "Hobbits" },
     {
       href: "Others",
       label: "Others",
       submenu: [
-        { href: "Ents", label: "Ents" }
+        { href: "Ents", label: "Ents" },
+        { href: "Great Eagles", label: "Great Eagles" },
+        { href: "Great Spiders", label: "Great Spiders" },
+        { href: "Werewolves", label: "Werewolves" },
+        { href: "Dragons", label: "Dragons" },
+        { href: "Unknown", label: "Unknown" },
       ]
     },
   ];
@@ -139,11 +152,14 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
           </button>
           <div
             ref={submenuRef}
-            className={`${openSubmenu === item.label ? 'block' : 'hidden'} md:group-hover:block absolute -left-4 mt-0 pt-5 w-48 rounded-md shadow-lg z-1001`}
+            className={`${openSubmenu === item.label ? 'block' : 'hidden'} 
+              md:group-hover:block absolute mt-0 pt-5 rounded-md shadow-lg z-1001
+              ${item.label === "Men" ? 'w-96 grid grid-cols-2 -left-42' : 'w-48'}
+              ${item.label === "Others" ? '-right-5' : ''}`}
             onMouseEnter={() => window.innerWidth >= 768 && setOpenSubmenu(item.label)}
             onMouseLeave={() => window.innerWidth >= 768 && setOpenSubmenu(null)}
           >
-            <div className="bg-black/90">
+            <div className={`bg-black/90 ${item.label === "Men" ? 'grid grid-cols-2' : ''}`}>
               {item.submenu.map((subItem, j) => (
                 <button
                   key={j}
@@ -173,7 +189,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-black/60 z-[1000]">
+    <nav className="fixed top-0 w-full bg-black/80 z-[1000]">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
@@ -197,7 +213,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
 
         {/* Mobile Menu Dropdown */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-[#f4e7d2]">
+          <div className="md:hidden mt-4 pb-4 border-t border-[#f4e7d2] max-h-[70vh] overflow-y-auto">
             <div className="flex flex-col space-y-4 pt-4">
               {menuItems.map((item, i) => {
                 if (item.submenu) {
@@ -216,7 +232,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                       >
                         {item.label}
                       </button>
-                      <div className={`${openSubmenu === item.label ? 'block' : 'hidden'} pl-4 mt-2 space-y-2`}>
+                      <div className={`${openSubmenu === item.label ? 'block' : 'hidden'} pl-4 mt-2 space-y-2 ${item.label === "Men" ? 'grid grid-cols-2 gap-2' : ''}`}>
                         {item.submenu.map((subItem, j) => (
                           <button
                             key={j}
@@ -243,14 +259,6 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                   </button>
                 );
               })}
-              <div className="pt-2 border-t border-[#f4e7d2]">
-                <button
-                  className="w-full bg-gradient-to-r from-[#df891c] to-[#e6a347] hover:from-[#c67a15] hover:to-[#df891c] text-white"
-                  onClick={closeMenu}
-                >
-                  <a href="#contact">Contactar Ahora</a>
-                </button>
-              </div>
             </div>
           </div>
         )}

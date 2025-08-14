@@ -542,6 +542,179 @@ const Home = () => {
           title={"No"}
         />
 
+        {/* Stewards */}
+        <RacesSection
+          data={data}
+          index={29}
+          startingIndex={getStartingIndex(29)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Dol Amroth */}
+        <RacesSection
+          data={data}
+          index={30}
+          startingIndex={getStartingIndex(30)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Rhovanion */}
+        <RacesSection
+          data={data}
+          index={31}
+          startingIndex={getStartingIndex(31)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Rohan */}
+        <RacesSection
+          data={data}
+          index={32}
+          startingIndex={getStartingIndex(32)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Skin Changers */}
+        <RacesSection
+          data={data}
+          index={33}
+          startingIndex={getStartingIndex(33)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          title={"No"}
+        />
+
+        {/* Princes of Ithilien */}
+        <RacesSection
+          data={data}
+          index={34}
+          startingIndex={getStartingIndex(34)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Kings of Dale */}
+        <RacesSection
+          data={data}
+          index={35}
+          startingIndex={getStartingIndex(35)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"No"}
+        />
+
+        {/* Chiefs of the Drúedain */}
+        <RacesSection
+          data={data}
+          index={36}
+          startingIndex={getStartingIndex(36)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          title={"No"}
+        />
+
+        {/* Hobbits */}
+        <RacesSection
+          data={data}
+          index={37}
+          startingIndex={getStartingIndex(37)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"Hobbits"}
+        />
+
+        {/* Great Eagles */}
+        <RacesSection
+          data={data}
+          index={39}
+          startingIndex={getStartingIndex(39)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"Great Eagles"}
+        />
+
+        {/* Great Spiders */}
+        <RacesSection
+          data={data}
+          index={40}
+          startingIndex={getStartingIndex(40)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          title={"Great Spiders"}
+        />
+
+        {/* Werewolves */}
+        <RacesSection
+          data={data}
+          index={41}
+          startingIndex={getStartingIndex(41)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          title={"Werewolves"}
+        />
+
+        {/* Dragons */}
+        <RacesSection
+          data={data}
+          index={42}
+          startingIndex={getStartingIndex(42)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          title={"Great Spiders"}
+        />
+
+        {/* Unknown */}
+        <RacesSection
+          data={data}
+          index={43}
+          startingIndex={getStartingIndex(43)} // 999 - (elementos en sección 0 + sección 1)
+          h={10}
+          w={50}
+          img_bg="valar.webp"
+          setGlobalIndex={setGlobalIndex}
+          order={"grid sm:grid-cols-2 grid-cols-2"}
+          title={"Unknown"}
+        />
+
         
 
         <div className="absolute bottom-0 -left-[.6vw] w-[16.5vw]">

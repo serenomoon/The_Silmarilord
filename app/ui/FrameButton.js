@@ -3,12 +3,22 @@ import { AnimatedButton } from "./AnimatedButton"
 import { useEffect } from "react"
 
 export const FrameButton = ({name, wiki, info, img, marco, color_bg, h, w, indexes, progenitor ,descendant ,couple ,siblings ,related, isLast }) => {
-
-    const zin_string = indexes.toString()
+    // Asegura un z-index válido
+    // const zIndexValue = 2000 - Math.max(0, indexes);
+    const zIndexValue = indexes.toString()
+    console.log(name);
+    console.log(zIndexValue);
     const nameWithSpace = name.replace(/_/g, " ");
+    
+    // Verifica que los props esenciales existan
+    if (!marco || !img) {
+        console.warn(`Missing essential props for ${name}`);
+        return null;
+    }
+
     return (
         <div id={`${nameWithSpace}`} className="relative w-[18vw] h-[20vw] flex justify-center items-center mx-auto"
-            style={{zIndex:zin_string}}
+            style={{zIndex: zIndexValue}}
         >
             {/* Contenedor de la imagen de contenido - CENTRADA */}
             <div className="absolute inset-0 flex items-center justify-center">
@@ -53,7 +63,7 @@ export const FrameButton = ({name, wiki, info, img, marco, color_bg, h, w, index
                             couple={couple}
                             siblings={siblings}
                             related={related}
-                            zIndex={zin_string}                 
+                            zIndex={zIndexValue}                 
                         />
                     </div>
                 </div>

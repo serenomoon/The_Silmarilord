@@ -567,7 +567,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffa9ae]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Iminyë",
@@ -581,7 +581,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffa9ae]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         }
     ],
     [   
@@ -597,7 +597,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#e65656] via-[#ffa9ae] to-[#e65656]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Ilwen",
@@ -611,7 +611,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffa9ae]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Ingwion",
@@ -625,7 +625,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffa9ae]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Indis",
@@ -639,7 +639,7 @@
             "siblings":["No"],
             "related":["Ingwë"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffa9ae]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Elenwë",
@@ -653,7 +653,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffa9ae]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Amarië",
@@ -667,7 +667,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffa9ae]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         }
     ],
     [
@@ -683,7 +683,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Tatië",
@@ -697,7 +697,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         }
     ],
     [
@@ -713,7 +713,7 @@
             "siblings":["No"],
             "related":["Fëanor"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Míriel",
@@ -727,7 +727,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Finwë",
@@ -741,7 +741,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#fefe06] via-[#10ff49] to-[#fefe06]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Rúmil",
@@ -755,7 +755,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Nerdanel",
@@ -769,7 +769,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Fëanor",
@@ -783,7 +783,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#fefe06] via-[#10ff49] to-[#fefe06]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Findis",
@@ -797,7 +797,7 @@
             "siblings":["Fingolfin", "Finarfin", "Írimë"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Anairë",
@@ -811,7 +811,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Fingolfin",
@@ -825,7 +825,7 @@
             "siblings":["Findis", "Finarfin", "Írimë"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#fefe06] via-[#10ff49] to-[#fefe06]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Finarfin",
@@ -839,7 +839,7 @@
             "siblings":["Findis", "Fingolfin", "Írimë"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Írimë",
@@ -853,7 +853,7 @@
             "siblings":["Findis", "Fingolfin", "Finarfin"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Amras",
@@ -867,7 +867,7 @@
             "siblings":["Maedhros", "Maglor", "Celegorm", "Caranthir", "Curufin", "Amrod"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Amrod",
@@ -881,7 +881,7 @@
             "siblings":["Maedhros", "Maglor", "Celegorm", "Caranthir", "Curufin", "Amras"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Celegorm",
@@ -895,7 +895,7 @@
             "siblings":["Maedhros", "Maglor", "Amrod", "Caranthir", "Curufin", "Amras"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Curufin",
@@ -909,7 +909,7 @@
             "siblings":["Maedhros", "Maglor", "Amrod", "Caranthir", "Celegorm", "Amras"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Maglor",
@@ -923,7 +923,7 @@
             "siblings":["Maedhros", "Curufin", "Amrod", "Caranthir", "Celegorm", "Amras"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Caranthir",
@@ -937,7 +937,7 @@
             "siblings":["Maedhros", "Curufin", "Amrod", "Maglor", "Celegorm", "Amras"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Aredhel",
@@ -951,7 +951,7 @@
             "siblings":["Argon", "Turgon", "Fingon"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Argon",
@@ -965,7 +965,7 @@
             "siblings":["Aredhel", "Turgon", "Fingon"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Turgon",
@@ -979,7 +979,7 @@
             "siblings":["Aredhel", "Argon", "Fingon"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#fefe06] via-[#10ff49] to-[#fefe06]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Fingon",
@@ -993,7 +993,7 @@
             "siblings":["Aredhel", "Argon", "Turgon"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#fefe06] via-[#10ff49] to-[#fefe06]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Finrod",
@@ -1007,7 +1007,7 @@
             "siblings":["Angrod", "Aegnor", "Galadriel"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Angrod",
@@ -1021,7 +1021,7 @@
             "siblings":["Finrod", "Aegnor", "Galadriel"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Aegnor",
@@ -1035,7 +1035,7 @@
             "siblings":["Finrod", "Angrod", "Galadriel"],
             "related":["Andreth"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Galadriel",
@@ -1049,7 +1049,7 @@
             "siblings":["Finrod", "Angrod", "Aegnor"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Celebrimbor",
@@ -1063,7 +1063,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Maeglin",
@@ -1077,7 +1077,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Idril",
@@ -1091,7 +1091,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Guilin",
@@ -1105,7 +1105,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Orodreth",
@@ -1119,7 +1119,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Gelmir",
@@ -1133,7 +1133,7 @@
             "siblings":["Gwindor"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Gwindor",
@@ -1147,7 +1147,7 @@
             "siblings":["Gelmir"],
             "related":["Finduilas"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Finduilas",
@@ -1161,7 +1161,7 @@
             "siblings":["Areinion Gil-Galad"],
             "related":["Gwindor", "Túrin"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#10ff49] via-[#46fec8] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Areinion_Gil-Galad",
@@ -1175,7 +1175,7 @@
             "siblings":["Finduilas"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#fefe06] via-[#10ff49] to-[#fefe06]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         }
     ],
     [
@@ -1191,7 +1191,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Enelyë",
@@ -1205,7 +1205,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         }
     ],
     [
@@ -1221,7 +1221,7 @@
             "siblings":["Elmo", "Elu Thingol"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#39daff] via-[#10ff49] to-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Eärwen",
@@ -1235,7 +1235,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         }
     ],
     [
@@ -1251,7 +1251,7 @@
             "siblings":["Olwë", "Elu Thingol"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Elu_Thingol",
@@ -1265,7 +1265,7 @@
             "siblings":["Olwë", "Elmo"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#39daff] via-[#10ff49] to-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Círdan",
@@ -1279,7 +1279,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Galadhon",
@@ -1293,7 +1293,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Oropher",
@@ -1307,7 +1307,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#39daff] to-[#0f93d3]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Celeborn",
@@ -1321,7 +1321,7 @@
             "siblings":["Galathil"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Eöl",
@@ -1335,7 +1335,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Galathil",
@@ -1349,7 +1349,7 @@
             "siblings":["Celeborn"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Thranduil",
@@ -1363,7 +1363,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-gradient-to-r from-[#39daff] to-[#0f93d3]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Amdír",
@@ -1377,7 +1377,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Amroth",
@@ -1391,7 +1391,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Lúthien",
@@ -1405,7 +1405,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Nimloth",
@@ -1419,7 +1419,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Celebrían",
@@ -1433,7 +1433,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Erestor",
@@ -1447,7 +1447,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Lindir",
@@ -1461,7 +1461,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         } 
     ],
     [
@@ -1477,7 +1477,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffb43e]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Denethor",
@@ -1491,7 +1491,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffb43e]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Ithilbor",
@@ -1505,7 +1505,7 @@
             "siblings":["No"],
             "related":["Elu Thingol"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffb43e]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Saeros",
@@ -1519,7 +1519,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffb43e]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Mithrellas",
@@ -1533,7 +1533,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffb43e]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Nimrodel",
@@ -1547,7 +1547,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffb43e]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Haldir",
@@ -1561,7 +1561,7 @@
             "siblings":["Rúmil", "Orophin"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffb43e]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Rúmil",
@@ -1575,7 +1575,7 @@
             "siblings":["Haldir", "Orophin"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffb43e]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         },
         {
             "nombre":"Orophin",
@@ -1589,7 +1589,7 @@
             "siblings":["Rúmil", "Orophin"],
             "related":["No"],
             "color_bg":"border-[#42d388] border-2 bg-[#ffb43e]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/elf_frame.webp"
         }
     ],
     [
@@ -1605,7 +1605,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#ffb43e] border-2 bg-gradient-to-r from-[#39daff] via-[#10ff49] to-[#39daff]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/half-elfs_frame.webp"
         }
     ],
     [
@@ -1621,7 +1621,7 @@
             "siblings":["Eluréd", "Elwing"],
             "related":["No"],
             "color_bg":"border-[#ffb43e] border-2 bg-gradient-to-r from-[#f99900] via-[#f3e100] to-[#cd4630]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/half-elfs_frame.webp"
         },
         {
             "nombre":"Eluréd",
@@ -1635,7 +1635,7 @@
             "siblings":["Elurín", "Elwing"],
             "related":["No"],
             "color_bg":"border-[#ffb43e] border-2 bg-gradient-to-r from-[#f99900] via-[#f3e100] to-[#cd4630]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/half-elfs_frame.webp"
         },
         {
             "nombre":"Elwing",
@@ -1649,7 +1649,7 @@
             "siblings":["Elurín", "Eluréd"],
             "related":["No"],
             "color_bg":"border-[#ffb43e] border-2 bg-gradient-to-r from-[#f99900] via-[#f3e100] to-[#cd4630]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/half-elfs_frame.webp"
         },
         {
             "nombre":"Eärendil",
@@ -1663,7 +1663,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#ffb43e] border-2 bg-gradient-to-r from-[#f99900] via-[#f3e100] to-[#cd4630]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/half-elfs_frame.webp"
         },
         {
             "nombre":"Elrond",
@@ -1677,7 +1677,7 @@
             "siblings":["Elros(Tar-Minyatur)"],
             "related":["No"],
             "color_bg":"border-[#ffb43e] border-2 bg-gradient-to-r from-[#f99900] via-[#f3e100] to-[#cd4630]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/half-elfs_frame.webp"
         },
         {
             "nombre":"Elladan",
@@ -1691,7 +1691,7 @@
             "siblings":["Elrohir", "Arwen"],
             "related":["No"],
             "color_bg":"border-[#ffb43e] border-2 bg-gradient-to-r from-[#f99900] via-[#f3e100] to-[#cd4630]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/half-elfs_frame.webp"
         },
         {
             "nombre":"Elrohir",
@@ -1705,7 +1705,7 @@
             "siblings":["Elladan", "Arwen"],
             "related":["No"],
             "color_bg":"border-[#ffb43e] border-2 bg-gradient-to-r from-[#f99900] via-[#f3e100] to-[#cd4630]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/half-elfs_frame.webp"
         },
         {
             "nombre":"Arwen",
@@ -1719,7 +1719,7 @@
             "siblings":["Elladan", "Elrohir"],
             "related":["No"],
             "color_bg":"border-[#ffb43e] border-2 bg-gradient-to-r from-[#f99900] via-[#f3e100] to-[#cd4630]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/half-elfs_frame.webp"
         }
     ],
     [
@@ -1735,7 +1735,7 @@
             "siblings":["Elrond"],
             "related":["No"],
             "color_bg":"border-[#ffb43e] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/valar_frame.webp"
+            "marco":"/img/ui/half-elfs_frame.webp"
         }
     ],
     [
@@ -2375,7 +2375,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#8a6dad] via-[#08e2fe] to-[#ff4af4]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Belen",
@@ -2389,7 +2389,7 @@
             "siblings":["Baran"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Baran",
@@ -2403,7 +2403,7 @@
             "siblings":["Belen"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#8a6dad] via-[#08e2fe] to-[#ff4af4]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Beldir",
@@ -2417,7 +2417,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Boron",
@@ -2431,7 +2431,7 @@
             "siblings":["Baranor"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#8a6dad] via-[#08e2fe] to-[#ff4af4]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Baranor",
@@ -2445,7 +2445,7 @@
             "siblings":["Boron"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Belemir",
@@ -2459,7 +2459,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Boromir_of_Ladros",
@@ -2473,7 +2473,7 @@
             "siblings":["Belegor"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#8a6dad] via-[#08e2fe] to-[#ff4af4]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Belegor",
@@ -2487,7 +2487,7 @@
             "siblings":["Boromir of Ladros"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Bereg",
@@ -2501,7 +2501,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Beren I",
@@ -2515,7 +2515,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Bregor",
@@ -2529,7 +2529,7 @@
             "siblings":["Andreth", "Beril"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#8a6dad] via-[#08e2fe] to-[#ff4af4]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Andreth",
@@ -2543,7 +2543,7 @@
             "siblings":["Bregor", "Beril"],
             "related":["Aegnor"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Beril",
@@ -2557,7 +2557,7 @@
             "siblings":["Bregor", "Andreth"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Emeldir",
@@ -2571,7 +2571,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Barahir",
@@ -2585,7 +2585,7 @@
             "siblings":["Bregil", "Gilwen", "Bregolas", "Hirwen"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#8a6dad] via-[#08e2fe] to-[#ff4af4]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Bregil",
@@ -2599,7 +2599,7 @@
             "siblings":["Barahir", "Gilwen", "Bregolas", "Hirwen"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Gilwen",
@@ -2613,7 +2613,7 @@
             "siblings":["Barahir", "Bregil", "Bregolas", "Hirwen"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Bregolas",
@@ -2627,7 +2627,7 @@
             "siblings":["Bregil", "Gilwen", "Barahir", "Hirwen"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#8a6dad] via-[#08e2fe] to-[#ff4af4]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hirwen",
@@ -2641,7 +2641,7 @@
             "siblings":["Barahir", "Bregil", "Bregolas", "Gilwen"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arachon",
@@ -2655,7 +2655,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Beren_II_Erchamion",
@@ -2669,7 +2669,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Beldis",
@@ -2683,7 +2683,7 @@
             "siblings":["Brandir"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Beleth",
@@ -2697,7 +2697,7 @@
             "siblings":["Baragund", "Belegund"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Baragund",
@@ -2711,7 +2711,7 @@
             "siblings":["Beleth", "Belegund"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Belegund",
@@ -2725,7 +2725,7 @@
             "siblings":["Beleth", "Baragund"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Morwen",
@@ -2739,7 +2739,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Rían",
@@ -2753,7 +2753,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f8c0ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -2769,7 +2769,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd8891] via-[#08e2fe] to-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Haldar",
@@ -2783,7 +2783,7 @@
             "siblings":["Haleth"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd8891] via-[#08e2fe] to-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Haleth",
@@ -2797,7 +2797,7 @@
             "siblings":["Haldar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd8891] via-[#08e2fe] to-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Haldan",
@@ -2811,7 +2811,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd8891] via-[#08e2fe] to-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Halmir",
@@ -2825,7 +2825,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd8891] via-[#08e2fe] to-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hareth",
@@ -2839,7 +2839,7 @@
             "siblings":["Haldir (Men)", "Hiril", "Hundar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Haldir_(Men)",
@@ -2853,7 +2853,7 @@
             "siblings":["Hareth", "Hiril", "Hundar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd8891] via-[#08e2fe] to-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hiril",
@@ -2867,7 +2867,7 @@
             "siblings":["Hareth", "Haldir (Men)", "Hundar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hundar",
@@ -2881,7 +2881,7 @@
             "siblings":["Hareth", "Haldir (Men)", "Hiril"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Handir",
@@ -2895,7 +2895,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd8891] via-[#08e2fe] to-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Meleth",
@@ -2909,7 +2909,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hundad",
@@ -2923,7 +2923,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Brandir_the_Lame",
@@ -2937,7 +2937,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd8891] via-[#08e2fe] to-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hunthor",
@@ -2951,7 +2951,7 @@
             "siblings":["Manthor"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Manthor",
@@ -2965,7 +2965,7 @@
             "siblings":["Hunthor"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hardang",
@@ -2979,7 +2979,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd8891]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -2995,7 +2995,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fcd317] via-[#08e2fe] to-[#fcd317]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Malach",
@@ -3009,7 +3009,7 @@
             "siblings":["Imlach"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fcd317] via-[#08e2fe] to-[#fcd317]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Imlach",
@@ -3023,7 +3023,7 @@
             "siblings":["Malach"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Zimrahin",
@@ -3037,7 +3037,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Adanel",
@@ -3051,7 +3051,7 @@
             "siblings":["Magor"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Magor",
@@ -3065,7 +3065,7 @@
             "siblings":["Adanel"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fcd317] via-[#08e2fe] to-[#fcd317]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Amlach",
@@ -3079,7 +3079,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hathol",
@@ -3093,7 +3093,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fcd317] via-[#08e2fe] to-[#fcd317]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hador",
@@ -3107,7 +3107,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fcd317] via-[#08e2fe] to-[#fcd317]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Gildis",
@@ -3121,7 +3121,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Glóredhel",
@@ -3135,7 +3135,7 @@
             "siblings":["Galdor"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Galdor",
@@ -3149,7 +3149,7 @@
             "siblings":["Glóredhel"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fcd317] via-[#08e2fe] to-[#fcd317]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Huor",
@@ -3163,7 +3163,7 @@
             "siblings":["Húrin"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Húrin",
@@ -3177,7 +3177,7 @@
             "siblings":["Huor"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fcd317] via-[#08e2fe] to-[#fcd317]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tuor",
@@ -3191,7 +3191,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Nienor",
@@ -3205,7 +3205,7 @@
             "siblings":["Túrin", "Lalaith"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Túrin",
@@ -3219,7 +3219,7 @@
             "siblings":["Nienor", "Lalaith"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fcd317] via-[#08e2fe] to-[#fcd317]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Lalaith",
@@ -3233,7 +3233,7 @@
             "siblings":["Nienor", "Túrin"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Indor",
@@ -3247,7 +3247,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aerin",
@@ -3261,7 +3261,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#d8e28b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -3277,7 +3277,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#000000] via-[#c1a55b] to-[#000000]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ulfang",
@@ -3291,7 +3291,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#000000] via-[#c1a55b] to-[#000000]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Borlach",
@@ -3305,7 +3305,7 @@
             "siblings":["Borlad", "Borthand"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#000000] via-[#c1a55b] to-[#000000]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Borlad",
@@ -3319,7 +3319,7 @@
             "siblings":["Borlach", "Borthand"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#000000] via-[#c1a55b] to-[#000000]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Borthand",
@@ -3333,7 +3333,7 @@
             "siblings":["Borlach", "Borlad"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#000000] via-[#c1a55b] to-[#000000]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Uldor",
@@ -3347,7 +3347,7 @@
             "siblings":["Ulwarth", "Ulfast"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#000000] via-[#c1a55b] to-[#000000]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ulwarth",
@@ -3361,7 +3361,7 @@
             "siblings":["Uldor", "Ulfast"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#000000] via-[#c1a55b] to-[#000000]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ulwarth",
@@ -3375,7 +3375,7 @@
             "siblings":["Uldor", "Ulfast"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#000000] via-[#c1a55b] to-[#000000]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ulfast",
@@ -3389,7 +3389,7 @@
             "siblings":["Uldor", "Ulwarth"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#000000] via-[#c1a55b] to-[#000000]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Brodda",
@@ -3403,7 +3403,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#000000] via-[#c1a55b] to-[#000000]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -3419,7 +3419,7 @@
             "siblings":["Tindómiel", "Manwedil", "Atanalcar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tindómiel",
@@ -3433,7 +3433,7 @@
             "siblings":["Vardamir_Nólimon", "Manwedil", "Atanalcar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Manwëndil",
@@ -3447,7 +3447,7 @@
             "siblings":["Vardamir_Nólimon", "Tindómiel", "Atanalcar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Atanalcar",
@@ -3461,7 +3461,7 @@
             "siblings":["Vardamir_Nólimon", "Tindómiel", "Manwëndil"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Amandil",
@@ -3475,7 +3475,7 @@
             "siblings":["Vardilmë", "Aulendil", "Nolondil"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Vardilmë",
@@ -3489,7 +3489,7 @@
             "siblings":["Tar-Amandil", "Aulendil", "Nolondil"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aulendil",
@@ -3503,7 +3503,7 @@
             "siblings":["Tar-Amandil", "Vardilmë", "Nolondil"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Nolondil",
@@ -3517,7 +3517,7 @@
             "siblings":["Tar-Amandil", "Vardilmë", "Aulendil"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Elendil",
@@ -3531,7 +3531,7 @@
             "siblings":["Mairen", "Eärendur"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Vëantur",
@@ -3545,7 +3545,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Mairen",
@@ -3559,7 +3559,7 @@
             "siblings":["Tar-Elendil", "Eärendur"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eärendur",
@@ -3573,7 +3573,7 @@
             "siblings":["Tar-Elendil", "Mairen"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Yávien",
@@ -3587,7 +3587,7 @@
             "siblings":["Oromendil", "Axantur"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Oromendil",
@@ -3601,7 +3601,7 @@
             "siblings":["Yávien", "Axantur"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Axantur",
@@ -3615,7 +3615,7 @@
             "siblings":["Yávien", "Oromendil"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Elatan",
@@ -3629,7 +3629,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Silmariën",
@@ -3643,7 +3643,7 @@
             "siblings":["Isilmë", "Tar-Meneldur"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hatholdir",
@@ -3657,7 +3657,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Isilmë",
@@ -3671,7 +3671,7 @@
             "siblings":["Silmariën", "Tar-Meneldur"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Meneldur",
@@ -3685,7 +3685,7 @@
             "siblings":["Silmariën", "Isilmë"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Almarian",
@@ -3699,7 +3699,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Beregar",
@@ -3713,7 +3713,7 @@
             "siblings":["No"],
             "related":["Beleth"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Caliondo",
@@ -3727,7 +3727,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Lindissë",
@@ -3741,7 +3741,7 @@
             "siblings":["Ardamir", "Cemendur"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ardamir",
@@ -3755,7 +3755,7 @@
             "siblings":["Lindissë", "Cemendur"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Cemendur",
@@ -3769,7 +3769,7 @@
             "siblings":["Lindissë", "Ardamir"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Valandil",
@@ -3783,7 +3783,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#add500] via-[#b7e100] to-[#add500]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Orchaldor",
@@ -3797,7 +3797,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ailinel",
@@ -3811,7 +3811,7 @@
             "siblings":["Almiel", "Tar-Aldarion"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Aldarion",
@@ -3825,7 +3825,7 @@
             "siblings":["Ailinel", "Almiel"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Erendis",
@@ -3839,7 +3839,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Malantur",
@@ -3853,7 +3853,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Írildë",
@@ -3867,7 +3867,7 @@
             "siblings":["Hallatan"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hallatan",
@@ -3881,7 +3881,7 @@
             "siblings":["Írildë"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Soronto",
@@ -3895,7 +3895,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Ancalimë",
@@ -3909,7 +3909,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hallacar",
@@ -3923,7 +3923,7 @@
             "siblings":["Nessanië"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Nessanië",
@@ -3937,7 +3937,7 @@
             "siblings":["Hallacar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Anárion",
@@ -3951,7 +3951,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Súrion",
@@ -3965,7 +3965,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Telperiën",
@@ -3979,7 +3979,7 @@
             "siblings":["Isilmo"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Isilmo",
@@ -3993,7 +3993,7 @@
             "siblings":["Tar-Telperiën"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Minastir",
@@ -4007,7 +4007,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Ciryatan",
@@ -4021,7 +4021,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Atanamir",
@@ -4035,7 +4035,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Ancalimon",
@@ -4049,7 +4049,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Telemmaitë",
@@ -4063,7 +4063,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Herucalmo",
@@ -4077,7 +4077,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Vanimeldë",
@@ -4091,7 +4091,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Alcarin",
@@ -4105,7 +4105,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Calmacil",
@@ -4119,7 +4119,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Gimilzagar",
@@ -4133,7 +4133,7 @@
             "siblings":["Tar-Ardamin"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Ardamin",
@@ -4147,7 +4147,7 @@
             "siblings":["Gimilzagar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ar-Adúnakhör",
@@ -4161,7 +4161,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ar-Zimrathón",
@@ -4175,7 +4175,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eärendur",
@@ -4189,7 +4189,7 @@
             "siblings":["Lindórie"],
             "related":["Valandil"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#add500] via-[#b7e100] to-[#add500]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Lindórie",
@@ -4203,7 +4203,7 @@
             "siblings":["Eärendur"],
             "related":["Valandil"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ar-Sakalthôr",
@@ -4217,7 +4217,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Inzilbêth",
@@ -4231,7 +4231,7 @@
             "siblings":["No"],
             "related":["Gimilzagar"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ar-Gimilzôr",
@@ -4245,7 +4245,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Númendil",
@@ -4259,7 +4259,7 @@
             "siblings":["No"],
             "related":["Eärendur"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#add500] via-[#b7e100] to-[#add500]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Gimilkhâd",
@@ -4273,7 +4273,7 @@
             "siblings":["Ar-Inziladun(Tar-Palantir)"],
             "related":["Gimilzagar"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ar-Inziladun",
@@ -4287,7 +4287,7 @@
             "siblings":["Gimilkhâd"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Amandil",
@@ -4301,7 +4301,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#add500] via-[#b7e100] to-[#add500]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ar-Pharazôn",
@@ -4315,7 +4315,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#10ff49] via-[#39daff] to-[#10ff49]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tar-Míriel",
@@ -4329,7 +4329,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#b7e100]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Elendil",
@@ -4343,7 +4343,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#46f6ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Isildur",
@@ -4357,7 +4357,7 @@
             "siblings":["Anárion"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#46f6ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Anárion",
@@ -4371,7 +4371,7 @@
             "siblings":["Isildur"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -4387,7 +4387,7 @@
             "siblings":["Elendur", "Aratan", "Ciryon"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Elendur",
@@ -4401,7 +4401,7 @@
             "siblings":["Valandil(Isildur)", "Aratan", "Ciryon"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aratan",
@@ -4415,7 +4415,7 @@
             "siblings":["Valandil(Isildur)", "Elendur", "Ciryon"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ciryon",
@@ -4429,7 +4429,7 @@
             "siblings":["Valandil(Isildur)", "Elendur", "Aratan"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eldacar",
@@ -4443,7 +4443,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arantar",
@@ -4457,7 +4457,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tarcil",
@@ -4471,7 +4471,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tarondor",
@@ -4485,7 +4485,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Valandur",
@@ -4499,7 +4499,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Elendur(Arnor)",
@@ -4513,7 +4513,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eärendur(Arnor)",
@@ -4527,7 +4527,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -4543,7 +4543,7 @@
             "siblings":["Two"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Beleg",
@@ -4557,7 +4557,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Mallor",
@@ -4571,7 +4571,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Celepharn",
@@ -4585,7 +4585,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Celebrindor",
@@ -4599,7 +4599,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Malvegil",
@@ -4613,7 +4613,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Argeleb_I",
@@ -4627,7 +4627,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arveleg_I",
@@ -4641,7 +4641,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Araphor",
@@ -4655,7 +4655,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Argeleb_II",
@@ -4669,7 +4669,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arvegil",
@@ -4683,7 +4683,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arveleg_II",
@@ -4697,7 +4697,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Araval",
@@ -4711,7 +4711,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Araphant",
@@ -4725,7 +4725,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arvedui",
@@ -4739,7 +4739,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#05bffc] via-[#b7e100] to-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -4755,7 +4755,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Cemendur(Gondor)",
@@ -4769,7 +4769,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eärendil(Gondor)",
@@ -4783,7 +4783,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Anardil",
@@ -4797,7 +4797,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ostoher",
@@ -4811,7 +4811,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Rómendacil_I",
@@ -4825,7 +4825,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Turambar",
@@ -4839,7 +4839,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Atanatar_I",
@@ -4853,7 +4853,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Siriondil(King)",
@@ -4867,7 +4867,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tarannon_Falastur",
@@ -4881,7 +4881,7 @@
             "siblings":["Tarciryan"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Berúthiel",
@@ -4895,7 +4895,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tarciryan",
@@ -4909,7 +4909,7 @@
             "siblings":["Tarannon Falastur"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eärnil_I",
@@ -4923,7 +4923,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ciryandil",
@@ -4937,7 +4937,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hyarmendacil_I",
@@ -4951,7 +4951,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Atanatar_II",
@@ -4965,7 +4965,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Narmacil_I",
@@ -4979,7 +4979,7 @@
             "siblings":["Calmacil"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Calmacil",
@@ -4993,7 +4993,7 @@
             "siblings":["Narmacil I"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Calimehtar",
@@ -5007,7 +5007,7 @@
             "siblings":["Rómendacil II"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Rómendacil_II",
@@ -5021,7 +5021,7 @@
             "siblings":["Calimehtar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Valacar",
@@ -5035,7 +5035,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eldacar(Gondor)",
@@ -5049,7 +5049,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Castamir",
@@ -5063,7 +5063,7 @@
             "siblings":["No"],
             "related":["Calimehtar"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aldamir",
@@ -5077,7 +5077,7 @@
             "siblings":["Ornendil"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ornendil",
@@ -5091,7 +5091,7 @@
             "siblings":["Aldamir"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hyarmendacil_II",
@@ -5105,7 +5105,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Angamaitë",
@@ -5119,7 +5119,7 @@
             "siblings":["No"],
             "related":["Castamir","Sangahyando"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Sangahyando",
@@ -5133,7 +5133,7 @@
             "siblings":["No"],
             "related":["Castamir","Angamaitë"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Minardil",
@@ -5147,7 +5147,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Telemnar",
@@ -5161,7 +5161,7 @@
             "siblings":["Minastan"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Minastan",
@@ -5175,7 +5175,7 @@
             "siblings":["Telemnar"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Tarondor(Gondor)",
@@ -5189,7 +5189,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Telumehtar",
@@ -5203,7 +5203,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Narmacil_II",
@@ -5217,7 +5217,7 @@
             "siblings":["Arciryas"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arciryas",
@@ -5231,7 +5231,7 @@
             "siblings":["Narmacil II"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Calimehtar(King)",
@@ -5245,7 +5245,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Calimmacil",
@@ -5259,7 +5259,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ondoher",
@@ -5273,7 +5273,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Siriondil",
@@ -5287,7 +5287,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Fíriel",
@@ -5301,7 +5301,7 @@
             "siblings":["Faramir(Gondor)", "Artamir"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Faramir(Gondor)",
@@ -5315,7 +5315,7 @@
             "siblings":["Fíriel", "Artamir"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Artamir",
@@ -5329,7 +5329,7 @@
             "siblings":["Fíriel", "Faramir(Gondor)"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eärnil_II",
@@ -5343,7 +5343,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Minohtar",
@@ -5357,7 +5357,7 @@
             "siblings":["No"],
             "related":["Calimehtar", "Ondoher"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fbb9ff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eärnur",
@@ -5371,7 +5371,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#fbb9ff] to-[#7c35ab]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -5387,7 +5387,7 @@
             "siblings":["No"],
             "related":["Dirhael"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arahael",
@@ -5401,7 +5401,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aranuir",
@@ -5415,7 +5415,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aravir",
@@ -5429,7 +5429,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aragorn_I",
@@ -5443,7 +5443,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Araglas",
@@ -5457,7 +5457,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arahad_I",
@@ -5471,7 +5471,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aragost",
@@ -5485,7 +5485,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aravorn",
@@ -5499,7 +5499,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arahad_II",
@@ -5513,7 +5513,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arassuil",
@@ -5527,7 +5527,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arathorn_I",
@@ -5541,7 +5541,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Argonui",
@@ -5555,7 +5555,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arador",
@@ -5569,7 +5569,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Dirhael",
@@ -5583,7 +5583,7 @@
             "siblings":["No"],
             "related":["Aranarth"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ivorwen",
@@ -5597,7 +5597,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Arathorn_II",
@@ -5611,7 +5611,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#abd33c] via-[#05bffc] to-[#abd33c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Gilraen",
@@ -5625,7 +5625,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#05bffc]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -5641,7 +5641,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#00ff15] to-[#bdff43]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eldarion",
@@ -5655,7 +5655,7 @@
             "siblings":["Yes"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#7c35ab] via-[#00ff15] to-[#bdff43]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -5671,7 +5671,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Pelendur",
@@ -5685,7 +5685,7 @@
             "siblings":["No"],
             "related":["Húrin of Emyn Arnen"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Vorondil",
@@ -5699,7 +5699,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Mardil_Voronwë",
@@ -5713,7 +5713,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eradan",
@@ -5727,7 +5727,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Herion",
@@ -5741,7 +5741,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Belegorn",
@@ -5755,7 +5755,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Húrin_I",
@@ -5769,7 +5769,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Túrin_I",
@@ -5783,7 +5783,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hador(Gondor)",
@@ -5797,7 +5797,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Barahir(Gondor)",
@@ -5811,7 +5811,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Dior(Gondor)",
@@ -5825,7 +5825,7 @@
             "siblings":["Rían(Gondor)"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Rían(Gondor)",
@@ -5839,7 +5839,7 @@
             "siblings":["Dior(Gondor)"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f6e45c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Denethor_I",
@@ -5853,7 +5853,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Boromir",
@@ -5867,7 +5867,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Cirion",
@@ -5881,7 +5881,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hallas",
@@ -5895,7 +5895,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Húrin_II",
@@ -5909,7 +5909,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Belecthor_I",
@@ -5923,7 +5923,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Orodreth(Gondor)",
@@ -5937,7 +5937,7 @@
             "siblings":["Morwen(Gondor)"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Morwen(Gondor)",
@@ -5951,7 +5951,7 @@
             "siblings":["Orodreth(Gondor)"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#f6e45c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ecthelion_I",
@@ -5965,7 +5965,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Egalmoth",
@@ -5979,7 +5979,7 @@
             "siblings":["No"],
             "related":["Morwen(Gondor)"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Beren(Gondor)",
@@ -5993,7 +5993,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Beregond",
@@ -6007,7 +6007,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Belecthor_II",
@@ -6021,7 +6021,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Thorondir",
@@ -6035,7 +6035,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Túrin_II",
@@ -6049,7 +6049,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Turgon(Gondor)",
@@ -6063,7 +6063,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ecthelion_II",
@@ -6077,7 +6077,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Denethor_II",
@@ -6091,7 +6091,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Boromir_II",
@@ -6105,7 +6105,7 @@
             "siblings":["Faramir"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f25b0c] via-[#ffff06] to-[#f25b0c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -6121,7 +6121,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd7afe] via-[#abcae9] to-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Imrazôr",
@@ -6135,7 +6135,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd7afe] via-[#abcae9] to-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Galador",
@@ -6149,7 +6149,7 @@
             "siblings":["Gilmith"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd7afe] via-[#abcae9] to-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Gilmith",
@@ -6163,7 +6163,7 @@
             "siblings":["Galador"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aglahad",
@@ -6177,7 +6177,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd7afe] via-[#abcae9] to-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Angelimir",
@@ -6191,7 +6191,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd7afe] via-[#abcae9] to-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Adrahil_II",
@@ -6205,7 +6205,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd7afe] via-[#abcae9] to-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Morwen_Steelsheen",
@@ -6219,7 +6219,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Imrahil",
@@ -6233,7 +6233,7 @@
             "siblings":["Finduilas(Dol Amroth)","Ivriniel"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd7afe] via-[#abcae9] to-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Finduilas(Dol Amroth)",
@@ -6247,7 +6247,7 @@
             "siblings":["Imrahil","Ivriniel"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ivriniel",
@@ -6261,7 +6261,7 @@
             "siblings":["Imrahil","Finduilas(Dol Amroth)"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Elphir",
@@ -6275,7 +6275,7 @@
             "siblings":["Lothíriel"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd7afe] via-[#abcae9] to-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Lothíriel",
@@ -6289,7 +6289,7 @@
             "siblings":["Elphir"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Alphros",
@@ -6303,7 +6303,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#fd7afe] via-[#abcae9] to-[#fd7afe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -6319,7 +6319,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#ffc606] via-[#fff118] to-[#d5b838]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Vidumavi",
@@ -6333,7 +6333,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#fffeff]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Marhari",
@@ -6347,7 +6347,7 @@
             "siblings":["No"],
             "related":["Vidugavia"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#ffc606] via-[#fff118] to-[#d5b838]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Marhwini",
@@ -6361,7 +6361,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#ffc606] via-[#fff118] to-[#d5b838]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Forthwini",
@@ -6375,7 +6375,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#ffc606] via-[#fff118] to-[#d5b838]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Frumgar",
@@ -6389,7 +6389,7 @@
             "siblings":["No"],
             "related":["Forthwini"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#ffc606] via-[#fff118] to-[#d5b838]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Fram",
@@ -6403,7 +6403,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#ffc606] via-[#fff118] to-[#d5b838]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Léod",
@@ -6417,7 +6417,7 @@
             "siblings":["No"],
             "related":["Fram"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#ffc606] via-[#fff118] to-[#d5b838]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -6433,7 +6433,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Brego",
@@ -6447,7 +6447,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Aldor_the_Old",
@@ -6461,7 +6461,7 @@
             "siblings":["Eofor", "Baldor"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eofor",
@@ -6475,7 +6475,7 @@
             "siblings":["Aldor the Old", "Baldor"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Baldor",
@@ -6489,7 +6489,7 @@
             "siblings":["Aldor the Old", "Eofor"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Fréa",
@@ -6503,7 +6503,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Fréawine",
@@ -6517,7 +6517,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Goldwine",
@@ -6531,7 +6531,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Déor",
@@ -6545,7 +6545,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Fréca",
@@ -6559,7 +6559,7 @@
             "siblings":["No"],
             "related":["Fréawine"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Gram",
@@ -6573,7 +6573,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Wulf",
@@ -6587,7 +6587,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Helm_Hammerhand",
@@ -6601,7 +6601,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Hild",
@@ -6615,7 +6615,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Háma",
@@ -6629,7 +6629,7 @@
             "siblings":["Haleth(Rohan)"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Haleth(Rohan)",
@@ -6643,7 +6643,7 @@
             "siblings":["Háma"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Fréaláf_Hilderson",
@@ -6657,7 +6657,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Brytta_Leofa",
@@ -6671,7 +6671,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Walda",
@@ -6685,7 +6685,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Folca_the_Hunter",
@@ -6699,7 +6699,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Folcwine",
@@ -6713,7 +6713,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Fengel",
@@ -6727,7 +6727,7 @@
             "siblings":["Folcred", "Fastred"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Folcred",
@@ -6741,7 +6741,7 @@
             "siblings":["Fengel", "Fastred"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Fastred",
@@ -6755,7 +6755,7 @@
             "siblings":["Fengel", "Folcred"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Gálmód",
@@ -6769,7 +6769,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Thengel",
@@ -6783,7 +6783,7 @@
             "siblings":["Folcred", "Fastred"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Théoden",
@@ -6797,7 +6797,7 @@
             "siblings":["Théodwyn"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Théodwyn",
@@ -6811,7 +6811,7 @@
             "siblings":["Théoden"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Gríma",
@@ -6825,7 +6825,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Éomund",
@@ -6839,7 +6839,7 @@
             "siblings":["No"],
             "related":["Eofor"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Elfhild",
@@ -6853,7 +6853,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Erkenbrand",
@@ -6867,7 +6867,7 @@
             "siblings":["Yes"],
             "related":["Dúnhere"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Eomer_Éading",
@@ -6881,7 +6881,7 @@
             "siblings":["Éowyn"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Éowyn",
@@ -6895,7 +6895,7 @@
             "siblings":["Eomer Éading"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Théodred",
@@ -6909,7 +6909,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Dúnhere",
@@ -6923,7 +6923,7 @@
             "siblings":["No"],
             "related":["Erkenbrand"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Elfwine",
@@ -6937,7 +6937,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#f5900c] via-[#fff118] to-[#f5900c]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -6953,7 +6953,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Grimbeorn",
@@ -6967,7 +6967,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#ffca97]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -6983,7 +6983,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#00e127]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Elboron",
@@ -6997,7 +6997,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#00e127]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Barahir(Ithilien)",
@@ -7011,7 +7011,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-[#00e127]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -7027,7 +7027,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#d8b247] via-[#c6ef27] to-[#d8b247]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Bard_the_Bowman",
@@ -7041,7 +7041,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#d8b247] via-[#c6ef27] to-[#d8b247]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Bain",
@@ -7055,7 +7055,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#d8b247] via-[#c6ef27] to-[#d8b247]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Brand",
@@ -7069,7 +7069,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#d8b247] via-[#c6ef27] to-[#d8b247]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Bard_II",
@@ -7083,7 +7083,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#d8b247] via-[#c6ef27] to-[#d8b247]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -7099,7 +7099,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#eb830a] via-[#d1ff5e] to-[#9edaf2]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         },
         {
             "nombre":"Ghân-Buri-Ghân",
@@ -7113,7 +7113,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#3eb6d8] border-2 bg-gradient-to-r from-[#eb830a] via-[#d1ff5e] to-[#9edaf2]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/men_frame.webp"
         }
     ],
     [
@@ -7129,7 +7129,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-b from-[#ffce00] to-[#f24701]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/hobbits_frame.webp"
         },
         {
             "nombre":"Gorhendad_Oldbuck",
@@ -7143,7 +7143,7 @@
             "siblings":["No"],
             "related":["Bucca_of_the_Marish"],
             "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-b from-[#ffce00] to-[#f24701]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/hobbits_frame.webp"
         },
         {
             "nombre":"Isumbras_Took",
@@ -7157,7 +7157,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-b from-[#5edffe] to-[#a895e6]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/hobbits_frame.webp"
         },
         {
             "nombre":"Déagol",
@@ -7171,7 +7171,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-r from-[#f0cd27] to-[#ffffc6]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/hobbits_frame.webp"
         },
         {
             "nombre":"Sméagol",
@@ -7185,7 +7185,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-r from-[#f0cd27] to-[#ffffc6]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/hobbits_frame.webp"
         },
         {
             "nombre":"Bilbo_Baggins",
@@ -7199,7 +7199,7 @@
             "siblings":["No"],
             "related":["Frodo_Baggins"],
             "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-d from-[#83ff50] to-[#f1f21b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/hobbits_frame.webp"
         },
         {
             "nombre":"Frodo_Baggins",
@@ -7213,7 +7213,7 @@
             "siblings":["No"],
             "related":["Bilbo_Baggins"],
             "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-d from-[#83ff50] to-[#f1f21b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/hobbits_frame.webp"
         },
         {
             "nombre":"Samwise_Gamgee",
@@ -7227,7 +7227,7 @@
             "siblings":["Hamson", "Halfred", "Daisy", "May", "Marigold"],
             "related":["No"],
             "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-d from-[#f591e9] to-[#f1f21b]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/hobbits_frame.webp"
         },
         {
             "nombre":"Peregrin_Took",
@@ -7241,7 +7241,7 @@
             "siblings":["No"],
             "related":["Isumbras Took"],
             "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-b from-[#5edffe] to-[#a895e6]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/hobbits_frame.webp"
         },
         {
             "nombre":"Meriadoc_Brandybuck",
@@ -7255,7 +7255,7 @@
             "siblings":["No"],
             "related":["Gorhendad Oldbuck"],
             "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-b from-[#ffce00] to-[#f24701]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/hobbits_frame.webp"
         }
     ],
     [
@@ -7271,7 +7271,7 @@
             "siblings":["No"],
             "related":["Manwë Súlimo"],
             "color_bg":"border-[#2a4f83] border-2 bg-gradient-to-r from-[#fffc5d] via-[#34faff] to-[#fffc5d]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/eagles_frame.webp"
         },
         {
             "nombre":"Gwaihir_the_Windlord",
@@ -7285,7 +7285,7 @@
             "siblings":["Landroval"],
             "related":["Thorondor"],
             "color_bg":"border-[#2a4f83] border-2 bg-gradient-to-r from-[#fffc5d] via-[#34faff] to-[#fffc5d]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/eagles_frame.webp"
         },
         {
             "nombre":"Landroval",
@@ -7299,7 +7299,7 @@
             "siblings":["Gwaihir the Windlord"],
             "related":["Thorondor"],
             "color_bg":"border-[#2a4f83] border-2 bg-gradient-to-r from-[#fffc5d] via-[#34faff] to-[#fffc5d]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/eagles_frame.webp"
         },
         {
             "nombre":"Meneldor",
@@ -7313,7 +7313,7 @@
             "siblings":["No"],
             "related":["Thorondor"],
             "color_bg":"border-[#2a4f83] border-2 bg-gradient-to-r from-[#fffc5d] via-[#34faff] to-[#fffc5d]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/eagles_frame.webp"
         }
     ],
     [
@@ -7329,7 +7329,7 @@
             "siblings":["No"],
             "related":["Melkor(Morgoth)"],
             "color_bg":"border-[#252621] border-2 bg-gradient-to-r from-[#000000] via-[#bebebe] to-[#bebebe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/spiders_frame.webp"
         },
         {
             "nombre":"Shelob",
@@ -7343,7 +7343,7 @@
             "siblings":["No"],
             "related":["Ungoliant"],
             "color_bg":"border-[#252621] border-2 bg-gradient-to-r from-[#424242] via-[#bebebe] to-[#bebebe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/spiders_frame.webp"
         }
     ],
     [
@@ -7359,7 +7359,7 @@
             "siblings":["No"],
             "related":["Melkor(Morgoth)"],
             "color_bg":"border-[#252621] border-2 bg-gradient-to-r from-[#579be6] via-[#bebebe] to-[#bebebe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/werewolves_frame.webp"
         },
         {
             "nombre":"Carcharoth",
@@ -7373,7 +7373,7 @@
             "siblings":["No"],
             "related":["Draugluin"],
             "color_bg":"border-[#252621] border-2 bg-gradient-to-r from-[#579be6] via-[#bebebe] to-[#bebebe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/werewolves_frame.webp"
         }
     ],
     [
@@ -7389,7 +7389,7 @@
             "siblings":["No"],
             "related":["Melkor(Morgoth)"],
             "color_bg":"border-[#252621] border-2 bg-gradient-to-r from-[#fc2f34] via-[#bebebe] to-[#bebebe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/dragons_frame.webp"
         },
         {
             "nombre":"Ancalagon",
@@ -7403,7 +7403,7 @@
             "siblings":["No"],
             "related":["Glaurung"],
             "color_bg":"border-[#252621] border-2 bg-gradient-to-r from-[#fc2f34] via-[#bebebe] to-[#bebebe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/dragons_frame.webp"
         },
         {
             "nombre":"Scatha",
@@ -7417,7 +7417,7 @@
             "siblings":["No"],
             "related":["Glaurung"],
             "color_bg":"border-[#252621] border-2 bg-gradient-to-r from-[#fc2f34] via-[#bebebe] to-[#bebebe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/dragons_frame.webp"
         },
         {
             "nombre":"Smaug",
@@ -7431,7 +7431,7 @@
             "siblings":["No"],
             "related":["Glaurung"],
             "color_bg":"border-[#252621] border-2 bg-gradient-to-r from-[#fc2f34] via-[#bebebe] to-[#bebebe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/dragons_frame.webp"
         }
     ],
     [
@@ -7447,7 +7447,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#ffffff] border-2 bg-[#bebebe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/unknown_frame.webp"
         },
         {
             "nombre":"Goldberry",
@@ -7461,7 +7461,7 @@
             "siblings":["No"],
             "related":["No"],
             "color_bg":"border-[#ffffff] border-2 bg-[#bebebe]",
-            "marco":"/img/ui/dwarves_frame.webp"
+            "marco":"/img/ui/unknown_frame.webp"
         }
     ]
   ]

@@ -128,6 +128,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
         { href: "Unknown", label: "Unknown" },
       ]
     },
+    { href: "contactme", label: "ContactMe" },
   ];
 
   const renderMenuItem = (item, i) => {
@@ -154,8 +155,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
             ref={submenuRef}
             className={`${openSubmenu === item.label ? 'block' : 'hidden'} 
               md:group-hover:block absolute mt-0 pt-5 rounded-md shadow-lg z-1001
-              ${item.label === "Men" ? 'w-96 grid grid-cols-2 -left-42' : 'w-48'}
-              ${item.label === "Others" ? '-right-5' : ''}`}
+              ${item.label === "Men" ? 'w-96 grid grid-cols-2 -left-42' : 'w-48'}`}
             onMouseEnter={() => window.innerWidth >= 768 && setOpenSubmenu(item.label)}
             onMouseLeave={() => window.innerWidth >= 768 && setOpenSubmenu(null)}
           >

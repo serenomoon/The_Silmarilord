@@ -59,15 +59,28 @@ const Home = () => {
             <h1 className="text-2xl font-ringm text-yellow-500/90">
               Welcome to the Silmarilord
             </h1>
+            {/* <p>
+              Esta es una pagina hecha por un fan para fans. En el mundo creado por JRR Tolkien podemos encontrar muchisimos personajes con (la mayoria) una historia propia y rica en detalles.
+Asi como cada personaje tiene su historia, en esta tambien tiene su desendencia y sus ancestros. Siendo el objetivo de esta web (y aun en progreso) listar cada uno de sus personajes y sus interacciones para facilitar, de alguna manera y de una forma resumida, el trabajo de investigacion a la hora de aprender de sus arboles familiares.
+Disfruta tu viaje!
+            </p> */}
             <p>
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+              This is a page made by a fan for fans. 
+            </p>
+            <p>
+            In the world created by JRR Tolkien, we can find many characters, most of whom have their own rich and detailed history.
+            </p>
+            <p>
+              Just as each character has their own story, they also have their own descendants and ancestors. 
             </p>
             <br></br>
             <p>
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+              The goal of this website (which is still a work in progress) is to list each of the characters and their interactions in order to facilitate, 
+              in some way and in a summarized form, the research work involved in learning about their family trees.
+            </p>
+            <br></br>
+            <p>
+              Enjoy the journey!
             </p>
           </div>
 
@@ -115,27 +128,26 @@ const Home = () => {
           </div>
 
           <div className=" absolute top-[15vw] flex flex-col pt-[6vw] px-[15vw] text-center col-span-4 col-start-2">
-            <h1 className="text-[1.7vw] font-ringm text-yellow-500/90">
-              Welcome to the Silmarilord
+            <h1 className="text-[1.7vw] font-ringm text-yellow-500/90 pb-[1.5vw]">
+              Eä! Let these things Be!
             </h1>
-            <p className="px-[16vw] text-[1.2vw] pt-0 mt-0">
-              1Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+            <p className="px-[15vw] text-[1.2vw] pt-0 mt-0 pb-[1.5vw]">
+              I am Aragorn son of Arathorn; and if by life or death I can save you, I will.
             </p>
-            <p className="px-[8vw] text-[1.2vw] pt-0 mt-0 pb-[2vw]">
-              2Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+            <p className="px-[8vw] text-[1.2vw] pt-0 mt-0 pb-[1.5vw]">
+              The old that is strong does not wither, deep roots are not reached by the frost.
             </p>
-            <p className="px-[6vw] text-[1.2vw] pt-0 mt-0">
-              3Cupidatat proident anim anim anim anim anim anim anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+            <p className="px-[6vw] text-[1.2vw] pt-0 mt-0 pb-[1.5vw]">
+              For Isildur’s bane is not yet healed. And the line of Elendil is not yet broken.
             </p>
-            <p className="px-[4.5vw] text-[1.2vw] pt-0 mt-0 pb-[2vw]">
-              4Cupidatat proident anim anim anim anim anim anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem..
-              Cupidatat proident anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem..
+            <p className="px-[4.5vw] text-[1.2vw] pt-0 mt-0 pb-[1.5vw]">
+              The doom of Men, that they should depart, was at first a gift of Ilúvatar. But it became a grief to them; and they feared death and desired to escape it.
             </p>
-            <p className="px-[2vw] text-[1.2vw] pt-0 mt-0">
-              5Cupidatat proident anim anim anim anim anim anim anim anim anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+            <p className="px-[2vw] text-[1.2vw] pt-0 mt-0 pb-[1.5vw]">
+              There was sorrow then too in the House of Fëanor; and of that sorrow came many evil things.
             </p>
             <p className="px-0 text-[1.2vw] pt-0 mt-0">
-              6Cupidatat proident anim anim anim anim anim anim anim anim reprehenderit ipsum sunt ea mollit veniam in aliquip mollit Lorem.
+              Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.
             </p>
           </div>
         </div>
@@ -217,7 +229,8 @@ const Home = () => {
         />
       </div>
 
-
+      <div className="mb-50"></div>
+      <Banner />
       <div className="mb-50"></div>
       <Foot />
 

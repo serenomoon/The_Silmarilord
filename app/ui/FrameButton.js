@@ -6,8 +6,6 @@ export const FrameButton = ({name, wiki, info, img, marco, color_bg, h, w, index
     // Asegura un z-index válido
     // const zIndexValue = 2000 - Math.max(0, indexes);
     const zIndexValue = indexes.toString()
-    console.log(name);
-    console.log(zIndexValue);
     const nameWithSpace = name.replace(/_/g, " ");
     
     // Verifica que los props esenciales existan

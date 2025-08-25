@@ -7198,7 +7198,7 @@
             "couple":["No"],
             "siblings":["No"],
             "related":["Frodo_Baggins"],
-            "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-d from-[#83ff50] to-[#f1f21b]",
+            "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-r from-[#83ff50] to-[#f1f21b]",
             "marco":"/img/ui/hobbits_frame.webp"
         },
         {
@@ -7212,7 +7212,7 @@
             "couple":["No"],
             "siblings":["No"],
             "related":["Bilbo_Baggins"],
-            "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-d from-[#83ff50] to-[#f1f21b]",
+            "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-r from-[#83ff50] to-[#f1f21b]",
             "marco":"/img/ui/hobbits_frame.webp"
         },
         {
@@ -7226,7 +7226,7 @@
             "couple":["Rosie Cotton"],
             "siblings":["Hamson", "Halfred", "Daisy", "May", "Marigold"],
             "related":["No"],
-            "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-d from-[#f591e9] to-[#f1f21b]",
+            "color_bg":"border-[#1fd2f2] border-2 bg-gradient-to-r from-[#f591e9] to-[#f1f21b]",
             "marco":"/img/ui/hobbits_frame.webp"
         },
         {

@@ -15,12 +15,12 @@ export const FrameButton = ({name, wiki, info, img, marco, color_bg, h, w, index
     }
 
     return (
-        <div id={`${nameWithSpace}`} className="relative w-[18vw] h-[20vw] flex justify-center items-center mx-auto"
+        <div id={`${nameWithSpace}`} className="relative sm:w-[23.5vw] sm:h-[30vw] w-[35vw] h-[40vw] flex justify-center items-center mx-auto"
             style={{zIndex: zIndexValue}}
         >
             {/* Contenedor de la imagen de contenido - CENTRADA */}
             <div className="absolute inset-0 flex items-center justify-center">
-                <div className="relative w-[10vw] h-[16vw]"> {/* Ajusta el tamaño con w-2/3 h-2/3 o el % que necesites */}
+                <div className="relative sm:w-[14vw] sm:h-[23vw] w-[23vw] h-[31.5vw]"> {/* Ajusta el tamaño con w-2/3 h-2/3 o el % que necesites */}
                     <Image
                         src={img}
                         alt="Imagen de contenido"

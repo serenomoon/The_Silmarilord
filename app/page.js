@@ -123,7 +123,7 @@ Disfruta tu viaje!
 
           {/* Texto fijo sobre la imagen */}
           <div className="sm:absolute z-20 text-center">
-            <h1 className="sm:text-[4vw] text-3xl font-ringm text-yellow-500/90 pt-[6.5vw] pb-0 mb-0">Family Tree</h1>
+            <h1 className="sm:text-[4vw] text-3xl font-ringm text-yellow-500/90 pt-[7.5vw] pb-0 mb-0">Family Tree</h1>
             <p className="text-[1.5vw] sm:visible invisible text-yellow-500/90 font-ringm p-0 m-0">Ask who and enter</p>
           </div>
 

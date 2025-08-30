@@ -3,8 +3,10 @@ import { Menu, X } from "lucide-react";
 
 export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
   const [openSubmenu, setOpenSubmenu] = useState(null);
-  const [touchStart, setTouchStart] = useState(0);
   const menuRef = useRef(null);
+  const touchStartY = useRef(0);
+  const touchStartX = useRef(0);
+  const isScrolling = useRef(false);
 
   const handleNavigation = (id) => {
     if (id === "Home") {
@@ -23,6 +25,9 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
   };
 
   const handleSubmenuToggle = (e, item) => {
+    // Si estamos en medio de un scroll, ignorar el clic
+    if (isScrolling.current) return;
+    
     e.preventDefault();
     e.stopPropagation();
     
@@ -34,36 +39,42 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
   };
 
   const handleSubmenuItemClick = (e, href) => {
+    // Si estamos en medio de un scroll, ignorar el clic
+    if (isScrolling.current) return;
+    
     e.preventDefault();
     e.stopPropagation();
     handleNavigation(href);
   };
 
-  // Función para manejar el inicio del touch
+  // Manejar el inicio del touch
   const handleTouchStart = (e) => {
-    setTouchStart(e.touches[0].clientY);
+    touchStartY.current = e.touches[0].clientY;
+    touchStartX.current = e.touches[0].clientX;
+    isScrolling.current = false;
   };
 
-  // Función para manejar el movimiento del touch
+  // Manejar el movimiento del touch
   const handleTouchMove = (e) => {
-    // Solo prevenir el comportamiento por defecto en elementos scrollables
-    const touchEnd = e.touches[0].clientY;
-    const scrollContainer = e.currentTarget;
+    const touchY = e.touches[0].clientY;
+    const touchX = e.touches[0].clientX;
     
-    // Si el elemento no tiene scroll, no hacer nada
-    if (scrollContainer.scrollHeight <= scrollContainer.clientHeight) {
-      return;
+    // Calcular la distancia del movimiento
+    const deltaY = Math.abs(touchY - touchStartY.current);
+    const deltaX = Math.abs(touchX - touchStartX.current);
+    
+    // Si el movimiento es principalmente vertical, es un scroll
+    if (deltaY > 5 && deltaY > deltaX) {
+      isScrolling.current = true;
     }
-    
-    // Determinar la dirección del scroll
-    const isScrollingDown = touchEnd < touchStart;
-    const isAtTop = scrollContainer.scrollTop === 0;
-    const isAtBottom = scrollContainer.scrollTop + scrollContainer.clientHeight >= scrollContainer.scrollHeight;
-    
-    // Prevenir el scroll global cuando se está scrolleando dentro del contenedor
-    if ((isScrollingDown && isAtTop) || (!isScrollingDown && isAtBottom)) {
-      e.preventDefault();
-    }
+  };
+
+  // Manejar el fin del touch
+  const handleTouchEnd = () => {
+    // Pequeño delay para permitir que los clicks se procesen antes de resetear
+    setTimeout(() => {
+      isScrolling.current = false;
+    }, 100);
   };
 
   useEffect(() => {
@@ -228,6 +239,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
             className="md:hidden mt-4 pb-4 border-t border-[#f4e7d2] max-h-[70vh] overflow-y-auto"
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
+            onTouchEnd={handleTouchEnd}
           >
             <div className="flex flex-col space-y-4 pt-4">
               {menuItems.map((item, i) => {
@@ -239,10 +251,15 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                         onClick={(e) => handleSubmenuToggle(e, item)}
                         onTouchStart={(e) => {
                           e.preventDefault();
+                          touchStartY.current = e.touches[0].clientY;
+                          touchStartX.current = e.touches[0].clientX;
                         }}
                         onTouchEnd={(e) => {
                           e.preventDefault();
-                          handleSubmenuToggle(e, item);
+                          // Solo activar si no fue un scroll
+                          if (!isScrolling.current) {
+                            handleSubmenuToggle(e, item);
+                          }
                         }}
                       >
                         <span>{item.label}</span>
@@ -252,8 +269,6 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                       </button>
                       <div 
                         className={`${openSubmenu === item.label ? 'block' : 'hidden'} pl-4 mt-2 space-y-2 ${item.label === "Men" ? 'grid grid-cols-2 gap-2' : ''}`}
-                        onClick={(e) => e.stopPropagation()}
-                        onTouchStart={(e) => e.stopPropagation()}
                       >
                         {item.submenu.map((subItem, j) => (
                           <button
@@ -262,7 +277,15 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                             onClick={(e) => handleSubmenuItemClick(e, subItem.href)}
                             onTouchStart={(e) => {
                               e.preventDefault();
-                              handleSubmenuItemClick(e, subItem.href);
+                              touchStartY.current = e.touches[0].clientY;
+                              touchStartX.current = e.touches[0].clientX;
+                            }}
+                            onTouchEnd={(e) => {
+                              e.preventDefault();
+                              // Solo activar si no fue un scroll
+                              if (!isScrolling.current) {
+                                handleSubmenuItemClick(e, subItem.href);
+                              }
                             }}
                           >
                             {subItem.label}
@@ -277,7 +300,18 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                     key={i}
                     className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors py-2"
                     onClick={() => handleNavigation(item.href)}
-                    onTouchStart={() => handleNavigation(item.href)}
+                    onTouchStart={(e) => {
+                      e.preventDefault();
+                      touchStartY.current = e.touches[0].clientY;
+                      touchStartX.current = e.touches[0].clientX;
+                    }}
+                    onTouchEnd={(e) => {
+                      e.preventDefault();
+                      // Solo activar si no fue un scroll
+                      if (!isScrolling.current) {
+                        handleNavigation(item.href);
+                      }
+                    }}
                   >
                     {item.label}
                   </button>

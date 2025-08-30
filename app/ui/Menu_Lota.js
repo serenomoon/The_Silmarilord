@@ -3,10 +3,13 @@ import { Menu, X } from "lucide-react";
 
 export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
   const [openSubmenu, setOpenSubmenu] = useState(null);
-  const [tapTimers, setTapTimers] = useState({});
+  const [isScrolling, setIsScrolling] = useState(false);
   const menuRef = useRef(null);
+  const scrollTimeoutRef = useRef(null);
 
   const handleNavigation = (id) => {
+    if (isScrolling) return; // No navegar si estamos en medio de un scroll
+    
     if (id === "Home") {
       window.scrollTo({
         top: 0,
@@ -26,40 +29,47 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
     e.preventDefault();
     e.stopPropagation();
     
-    // Si ya está abierto, manejamos como doble tap para navegar
+    if (isScrolling) return;
+    
     if (openSubmenu === item.label) {
       handleNavigation(item.href);
       return;
     }
     
-    // Para evitar cierre automático en móviles, usamos un estado temporal
     setOpenSubmenu(item.label);
   };
 
   const handleSubmenuItemClick = (e, href) => {
     e.preventDefault();
     e.stopPropagation();
+    
+    if (isScrolling) return;
+    
     handleNavigation(href);
   };
 
-  // Prevenir el comportamiento por defecto en enlaces táctiles
-  const preventDefaultTouch = (e) => {
-    e.preventDefault();
+  // Manejar el inicio del scroll
+  const handleScrollStart = () => {
+    setIsScrolling(true);
+    
+    // Limpiar timeout anterior si existe
+    if (scrollTimeoutRef.current) {
+      clearTimeout(scrollTimeoutRef.current);
+    }
+  };
+
+  // Manejar el fin del scroll
+  const handleScrollEnd = () => {
+    scrollTimeoutRef.current = setTimeout(() => {
+      setIsScrolling(false);
+    }, 100);
   };
 
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
-        setOpenSubmenu(null);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    document.addEventListener("touchstart", handleClickOutside);
-    
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-      document.removeEventListener("touchstart", handleClickOutside);
+      if (scrollTimeoutRef.current) {
+        clearTimeout(scrollTimeoutRef.current);
+      }
     };
   }, []);
 
@@ -205,23 +215,33 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
 
         {/* Mobile Menu Dropdown */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-[#f4e7d2] max-h-[70vh] overflow-y-auto">
+          <div 
+            className="md:hidden mt-4 pb-4 border-t border-[#f4e7d2] max-h-[70vh] overflow-y-auto"
+            onTouchStart={handleScrollStart}
+            onTouchMove={handleScrollStart}
+            onTouchEnd={handleScrollEnd}
+            onScroll={handleScrollStart}
+          >
             <div className="flex flex-col space-y-4 pt-4">
               {menuItems.map((item, i) => {
                 if (item.submenu) {
                   return (
                     <div key={i} className="flex flex-col">
                       <button
-                        className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors py-2 flex justify-between items-center"
+                        className={`text-left cursor-pointer font-ringm transition-colors py-2 flex justify-between items-center ${
+                          isScrolling ? 'opacity-70' : 'text-shadow-amber-100 hover:text-[#df891c]'
+                        }`}
                         onClick={(e) => handleSubmenuToggle(e, item)}
                         onTouchStart={(e) => {
-                          // Solo prevenir el comportamiento por defecto, no manejar el toggle aquí
                           e.preventDefault();
                         }}
                         onTouchEnd={(e) => {
                           e.preventDefault();
-                          handleSubmenuToggle(e, item);
+                          if (!isScrolling) {
+                            handleSubmenuToggle(e, item);
+                          }
                         }}
+                        disabled={isScrolling}
                       >
                         <span>{item.label}</span>
                         <span className={`transform transition-transform ${openSubmenu === item.label ? 'rotate-180' : ''}`}>
@@ -236,12 +256,17 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                         {item.submenu.map((subItem, j) => (
                           <button
                             key={j}
-                            className="block w-full text-left font-ringm hover:text-[#df891c] transition-colors py-2 pl-2 border-l border-amber-800"
+                            className={`block w-full text-left font-ringm transition-colors py-2 pl-2 border-l border-amber-800 ${
+                              isScrolling ? 'opacity-70' : 'hover:text-[#df891c]'
+                            }`}
                             onClick={(e) => handleSubmenuItemClick(e, subItem.href)}
                             onTouchStart={(e) => {
                               e.preventDefault();
-                              handleSubmenuItemClick(e, subItem.href);
+                              if (!isScrolling) {
+                                handleSubmenuItemClick(e, subItem.href);
+                              }
                             }}
+                            disabled={isScrolling}
                           >
                             {subItem.label}
                           </button>
@@ -253,9 +278,16 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                 return (
                   <button
                     key={i}
-                    className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors py-2"
-                    onClick={() => handleNavigation(item.href)}
-                    onTouchStart={() => handleNavigation(item.href)}
+                    className={`text-left cursor-pointer font-ringm transition-colors py-2 ${
+                      isScrolling ? 'opacity-70' : 'text-shadow-amber-100 hover:text-[#df891c]'
+                    }`}
+                    onClick={() => {
+                      if (!isScrolling) handleNavigation(item.href);
+                    }}
+                    onTouchStart={() => {
+                      if (!isScrolling) handleNavigation(item.href);
+                    }}
+                    disabled={isScrolling}
                   >
                     {item.label}
                   </button>
@@ -277,6 +309,12 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
           button, 
           .submenu-item {
             -webkit-tap-highlight-color: transparent;
+          }
+          
+          /* Mejorar la experiencia de scroll */
+          .overflow-y-auto {
+            -webkit-overflow-scrolling: touch;
+            scroll-behavior: smooth;
           }
         }
       `}</style>

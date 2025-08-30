@@ -1,13 +1,12 @@
-import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 
 export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
   const [openSubmenu, setOpenSubmenu] = useState(null);
-  const elfMenuRef = useRef(null);
+  const menuRef = useRef(null);
   const submenuRef = useRef(null);
 
-  const handleClick = (id) => {
+  const handleNavigation = (id) => {
     if (id === "Home") {
       window.scrollTo({
         top: 0,
@@ -23,33 +22,37 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
     setOpenSubmenu(null);
   };
 
-  const handleElfsClick = (e, href, label) => {
-    if (window.innerWidth < 768) {
-      e.preventDefault();
-      // Si el submenú ya está abierto, navegar al href principal
-      if (openSubmenu === label) {
-        handleClick(href);
-      } else {
-        // Si no está abierto, abrir el submenú
-        setOpenSubmenu(label);
-      }
+  const handleSubmenuToggle = (e, label) => {
+    // Prevenir comportamiento por defecto en dispositivos táctiles
+    e.preventDefault();
+    e.stopPropagation();
+    
+    if (openSubmenu === label) {
+      setOpenSubmenu(null);
     } else {
-      handleClick(href);
+      setOpenSubmenu(label);
     }
+  };
+
+  const handleSubmenuItemClick = (e, href) => {
+    e.preventDefault();
+    e.stopPropagation();
+    handleNavigation(href);
   };
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (elfMenuRef.current && !elfMenuRef.current.contains(event.target)) {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
         setOpenSubmenu(null);
       }
     };
 
-    if (window.innerWidth < 768) {
-      document.addEventListener("mousedown", handleClickOutside);
-    }
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
     };
   }, []);
 
@@ -71,7 +74,6 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
         { href: "Vanyar", label: "Vanyar" },
         { href: "Tatyar", label: "Tatyar" },
         { href: "Ñoldor", label: "Ñoldor" },
-        { href: "Nelyar", label: "Nelyar" },
         { href: "Nelyar", label: "Nelyar" },
         { href: "Teleri-Falmari", label: "Teleri-Falmari" },
         { href: "Teleri-Sindar", label: "Teleri-Sindar" },
@@ -137,65 +139,8 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
     { href: "contactme", label: "ContactMe" },
   ];
 
-  const renderMenuItem = (item, i) => {
-    if (item.submenu) {
-      return (
-        <div
-          key={i}
-          className="relative group"
-          ref={elfMenuRef}
-          onMouseEnter={() => window.innerWidth >= 768 && setOpenSubmenu(item.label)}
-          onMouseLeave={() => window.innerWidth >= 768 && setTimeout(() => {
-            if (!submenuRef.current?.matches(':hover')) {
-              setOpenSubmenu(null);
-            }
-          }, 100)}
-        >
-          <button
-            className="cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
-            onClick={(e) => handleElfsClick(e, item.href, item.label)}
-          >
-            {item.label}
-          </button>
-          <div
-            ref={submenuRef}
-            className={`${openSubmenu === item.label ? 'block' : 'hidden'} 
-              md:group-hover:block absolute mt-0 pt-5 rounded-md shadow-lg z-1001
-              ${item.label === "Men" ? 'w-96 grid grid-cols-2 -left-42' : 'w-48'}`}
-            onMouseEnter={() => window.innerWidth >= 768 && setOpenSubmenu(item.label)}
-            onMouseLeave={() => window.innerWidth >= 768 && setOpenSubmenu(null)}
-          >
-            <div className={`bg-black/90 ${item.label === "Men" ? 'grid grid-cols-2' : ''}`}>
-              {item.submenu.map((subItem, j) => (
-                <button
-                  key={j}
-                  className="block cursor-pointer w-full text-left px-4 py-2 font-ringm hover:text-[#df891c] transition-colors"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleClick(subItem.href);
-                  }}
-                >
-                  {subItem.label}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-      );
-    }
-    return (
-      <button
-        key={i}
-        className="cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
-        onClick={() => handleClick(item.href)}
-      >
-        {item.label}
-      </button>
-    );
-  };
-
   return (
-    <nav className="fixed top-0 w-full bg-black/80 z-[5000]">
+    <nav className="fixed top-0 w-full bg-black/80 z-[5000]" ref={menuRef}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
@@ -204,7 +149,42 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            {menuItems.map((item, i) => renderMenuItem(item, i))}
+            {menuItems.map((item, i) => (
+              <div
+                key={i}
+                className="relative group"
+                onMouseEnter={() => setOpenSubmenu(item.label)}
+                onMouseLeave={() => setOpenSubmenu(null)}
+              >
+                <button
+                  className="cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
+                  onClick={() => handleNavigation(item.href)}
+                >
+                  {item.label}
+                </button>
+                
+                {item.submenu && (
+                  <div
+                    ref={submenuRef}
+                    className={`${openSubmenu === item.label ? 'block' : 'hidden'} 
+                      group-hover:block absolute mt-0 pt-5 rounded-md shadow-lg z-1001
+                      ${item.label === "Men" ? 'w-96 grid grid-cols-2 -left-42' : 'w-48'}`}
+                  >
+                    <div className={`bg-black/90 ${item.label === "Men" ? 'grid grid-cols-2' : ''}`}>
+                      {item.submenu.map((subItem, j) => (
+                        <button
+                          key={j}
+                          className="block cursor-pointer w-full text-left px-4 py-2 font-ringm hover:text-[#df891c] transition-colors"
+                          onClick={() => handleNavigation(subItem.href)}
+                        >
+                          {subItem.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
 
           {/* Mobile Menu Button */}
@@ -226,8 +206,9 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                   return (
                     <div key={i} className="flex flex-col">
                       <button
-                        className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
-                        onClick={(e) => handleElfsClick(e, item.href, item.label)}
+                        className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors py-2"
+                        onClick={(e) => handleSubmenuToggle(e, item.label)}
+                        onTouchStart={(e) => handleSubmenuToggle(e, item.label)}
                       >
                         {item.label}
                       </button>
@@ -235,11 +216,9 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                         {item.submenu.map((subItem, j) => (
                           <button
                             key={j}
-                            className="block w-full text-left font-ringm hover:text-[#df891c] transition-colors"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              handleClick(subItem.href);
-                            }}
+                            className="block w-full text-left font-ringm hover:text-[#df891c] transition-colors py-2"
+                            onClick={(e) => handleSubmenuItemClick(e, subItem.href)}
+                            onTouchStart={(e) => handleSubmenuItemClick(e, subItem.href)}
                           >
                             {subItem.label}
                           </button>
@@ -251,8 +230,9 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                 return (
                   <button
                     key={i}
-                    className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
-                    onClick={() => handleClick(item.href)}
+                    className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors py-2"
+                    onClick={() => handleNavigation(item.href)}
+                    onTouchStart={() => handleNavigation(item.href)}
                   >
                     {item.label}
                   </button>

@@ -26,7 +26,13 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
   const handleElfsClick = (e, href, label) => {
     if (window.innerWidth < 768) {
       e.preventDefault();
-      setOpenSubmenu(openSubmenu === label ? null : label);
+      // Si el submenú ya está abierto, navegar al href principal
+      if (openSubmenu === label) {
+        handleClick(href);
+      } else {
+        // Si no está abierto, abrir el submenú
+        setOpenSubmenu(label);
+      }
     } else {
       handleClick(href);
     }
@@ -221,14 +227,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                     <div key={i} className="flex flex-col">
                       <button
                         className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors"
-                        onClick={(e) => {
-                          if (openSubmenu === item.label) {
-                            handleClick(item.href);
-                          } else {
-                            e.preventDefault();
-                            setOpenSubmenu(item.label);
-                          }
-                        }}
+                        onClick={(e) => handleElfsClick(e, item.href, item.label)}
                       >
                         {item.label}
                       </button>

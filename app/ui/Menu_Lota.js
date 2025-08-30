@@ -3,13 +3,10 @@ import { Menu, X } from "lucide-react";
 
 export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
   const [openSubmenu, setOpenSubmenu] = useState(null);
-  const [isScrolling, setIsScrolling] = useState(false);
+  const [touchStart, setTouchStart] = useState(0);
   const menuRef = useRef(null);
-  const scrollTimeoutRef = useRef(null);
 
   const handleNavigation = (id) => {
-    if (isScrolling) return; // No navegar si estamos en medio de un scroll
-    
     if (id === "Home") {
       window.scrollTo({
         top: 0,
@@ -29,47 +26,59 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
     e.preventDefault();
     e.stopPropagation();
     
-    if (isScrolling) return;
-    
     if (openSubmenu === item.label) {
       handleNavigation(item.href);
-      return;
+    } else {
+      setOpenSubmenu(item.label);
     }
-    
-    setOpenSubmenu(item.label);
   };
 
   const handleSubmenuItemClick = (e, href) => {
     e.preventDefault();
     e.stopPropagation();
-    
-    if (isScrolling) return;
-    
     handleNavigation(href);
   };
 
-  // Manejar el inicio del scroll
-  const handleScrollStart = () => {
-    setIsScrolling(true);
+  // Función para manejar el inicio del touch
+  const handleTouchStart = (e) => {
+    setTouchStart(e.touches[0].clientY);
+  };
+
+  // Función para manejar el movimiento del touch
+  const handleTouchMove = (e) => {
+    // Solo prevenir el comportamiento por defecto en elementos scrollables
+    const touchEnd = e.touches[0].clientY;
+    const scrollContainer = e.currentTarget;
     
-    // Limpiar timeout anterior si existe
-    if (scrollTimeoutRef.current) {
-      clearTimeout(scrollTimeoutRef.current);
+    // Si el elemento no tiene scroll, no hacer nada
+    if (scrollContainer.scrollHeight <= scrollContainer.clientHeight) {
+      return;
+    }
+    
+    // Determinar la dirección del scroll
+    const isScrollingDown = touchEnd < touchStart;
+    const isAtTop = scrollContainer.scrollTop === 0;
+    const isAtBottom = scrollContainer.scrollTop + scrollContainer.clientHeight >= scrollContainer.scrollHeight;
+    
+    // Prevenir el scroll global cuando se está scrolleando dentro del contenedor
+    if ((isScrollingDown && isAtTop) || (!isScrollingDown && isAtBottom)) {
+      e.preventDefault();
     }
   };
 
-  // Manejar el fin del scroll
-  const handleScrollEnd = () => {
-    scrollTimeoutRef.current = setTimeout(() => {
-      setIsScrolling(false);
-    }, 100);
-  };
-
   useEffect(() => {
-    return () => {
-      if (scrollTimeoutRef.current) {
-        clearTimeout(scrollTimeoutRef.current);
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setOpenSubmenu(null);
       }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
     };
   }, []);
 
@@ -217,10 +226,8 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
         {isMenuOpen && (
           <div 
             className="md:hidden mt-4 pb-4 border-t border-[#f4e7d2] max-h-[70vh] overflow-y-auto"
-            onTouchStart={handleScrollStart}
-            onTouchMove={handleScrollStart}
-            onTouchEnd={handleScrollEnd}
-            onScroll={handleScrollStart}
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
           >
             <div className="flex flex-col space-y-4 pt-4">
               {menuItems.map((item, i) => {
@@ -228,20 +235,15 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                   return (
                     <div key={i} className="flex flex-col">
                       <button
-                        className={`text-left cursor-pointer font-ringm transition-colors py-2 flex justify-between items-center ${
-                          isScrolling ? 'opacity-70' : 'text-shadow-amber-100 hover:text-[#df891c]'
-                        }`}
+                        className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors py-2 flex justify-between items-center"
                         onClick={(e) => handleSubmenuToggle(e, item)}
                         onTouchStart={(e) => {
                           e.preventDefault();
                         }}
                         onTouchEnd={(e) => {
                           e.preventDefault();
-                          if (!isScrolling) {
-                            handleSubmenuToggle(e, item);
-                          }
+                          handleSubmenuToggle(e, item);
                         }}
-                        disabled={isScrolling}
                       >
                         <span>{item.label}</span>
                         <span className={`transform transition-transform ${openSubmenu === item.label ? 'rotate-180' : ''}`}>
@@ -256,17 +258,12 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                         {item.submenu.map((subItem, j) => (
                           <button
                             key={j}
-                            className={`block w-full text-left font-ringm transition-colors py-2 pl-2 border-l border-amber-800 ${
-                              isScrolling ? 'opacity-70' : 'hover:text-[#df891c]'
-                            }`}
+                            className="block w-full text-left font-ringm hover:text-[#df891c] transition-colors py-2 pl-2 border-l border-amber-800"
                             onClick={(e) => handleSubmenuItemClick(e, subItem.href)}
                             onTouchStart={(e) => {
                               e.preventDefault();
-                              if (!isScrolling) {
-                                handleSubmenuItemClick(e, subItem.href);
-                              }
+                              handleSubmenuItemClick(e, subItem.href);
                             }}
-                            disabled={isScrolling}
                           >
                             {subItem.label}
                           </button>
@@ -278,16 +275,9 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                 return (
                   <button
                     key={i}
-                    className={`text-left cursor-pointer font-ringm transition-colors py-2 ${
-                      isScrolling ? 'opacity-70' : 'text-shadow-amber-100 hover:text-[#df891c]'
-                    }`}
-                    onClick={() => {
-                      if (!isScrolling) handleNavigation(item.href);
-                    }}
-                    onTouchStart={() => {
-                      if (!isScrolling) handleNavigation(item.href);
-                    }}
-                    disabled={isScrolling}
+                    className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors py-2"
+                    onClick={() => handleNavigation(item.href)}
+                    onTouchStart={() => handleNavigation(item.href)}
                   >
                     {item.label}
                   </button>
@@ -306,8 +296,7 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
           }
           
           /* Prevenir highlight azul en elementos táctiles en iOS */
-          button, 
-          .submenu-item {
+          button {
             -webkit-tap-highlight-color: transparent;
           }
           

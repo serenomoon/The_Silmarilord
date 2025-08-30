@@ -3,7 +3,7 @@
     [
         {
             "nombre":"Eru_Ilúvatar",
-            "info":"Ilúvatar, del Quenya ilúvë, 'todo' y atar, 'padre'. Es llamado Eru, 'el único' por los elfos. La combinación de ambos nombres es también bastante frequente y podría traducirse como 'El único padre de todo'. Es considerado como el creador y Dios único y absoluto del Universo o Eä. Es el dios todopoderoso de la Tierra Media y de Arda, creador de los Valar y Maiar.",
+            "info":"Ilúvatar, from the Quenya ilúvë, ‘all’, and atar, ‘father’. He is called Eru, ‘the only one’, by the elves. The combination of both names is also quite common and could be translated as ‘The One Father of All’. He is considered the creator and sole and absolute God of the Universe or Eä. He is the almighty god of Middle-earth and Arda, creator of the Valar and Maiar.",
             "img":"/img/eru_iluvatar.webp",
             "link":"https://lotr.fandom.com/wiki/Eru_Il%C3%BAvatar",
             "race":"God",
@@ -19,7 +19,7 @@
     [
         {
             "nombre":"Vairë",
-            "info":"La Tejedora teje todas las cosas que han sido alguna vez en el Tiempo en tramas de historias, y las estancias de Mandos, más amplias a medida que transcurren las edades, se adornan con ellas.",
+            "info":"The Weaver weaves all things that have ever been in Time into storylines, and the halls of Mandos, which grow larger as the ages pass, are adorned with them.",
             "img":"/img/vaire.webp",
             "link":"https://lotr.fandom.com/wiki/Vair%C3%AB",
             "race":"Valar",
@@ -33,7 +33,7 @@
         },
         {
             "nombre":"Mandos",
-            "info":"Es el Valar del destino y es el guardián y señor de las Casas de los Muertos, y convoca a los espíritus de quienes tuvieron una muerte violenta. Tiene la responsabilidad de pronunciar todas las profecías y juicios de Eru Ilúvatar bajo orden de Manwë",
+            "info":"He is the Valar of destiny and the guardian and lord of the Houses of the Dead, summoning the spirits of those who died violent deaths. He is responsible for pronouncing all the prophecies and judgments of Eru Ilúvatar under the command of Manwë.",
             "img":"/img/Mandos.webp",
             "link":"https://lotr.fandom.com/wiki/Mandos",
             "race":"Valar",
@@ -47,7 +47,7 @@
         },
         {
             "nombre":"Nienna",
-            "info":"Olórin (Gandalf), fue su pupilo antes de partir a la Tierra Media como uno de los Istari, y de ella aprendió la compasión y la piedad entre otras muchas cosas, pues vivió largo tiempo en los salones de Nienna.",
+            "info":"Olórin (Gandalf) was her pupil before departing for Middle-earth as one of the Istari, and from her he learned compassion and mercy, among many other things, for he lived long in the halls of Nienna.",
             "img":"/img/Nienna.webp",
             "link":"https://lotr.fandom.com/wiki/Nienna",
             "race":"Valar",
@@ -61,7 +61,7 @@
         },
         {
             "nombre":"Irmo",
-            "info":"Irmo es conocido como el señor de los deseos, las visiones y los sueños. Su esposa es Estë 'la gentil', que vive con él en los llamado Jardines de Lórien por lo que a veces es llamado también con el nombre de Lórien, por el lugar en el que habita.",
+            "info":"Irmo is known as the lord of desires, visions, and dreams. His wife is Estë ‘the gentle’, who lives with him in the so-called Gardens of Lórien, which is why he is sometimes also called Lórien, after the place where he lives.",
             "img":"/img/Irmo.webp",
             "link":"https://lotr.fandom.com/wiki/L%C3%B3rien_(Vala)",
             "race":"Valar",
@@ -75,7 +75,7 @@
         },
         {
             "nombre":"Estë",
-            "info":"Estë es una de las Valier y su nombre es una palabra en Quenya, que significa 'descanso' o 'reposo'. Es apodada como 'la Sanadora' o 'la Gentil', pues es curadora de las heridas y el reposo es su don. ",
+            "info":"Estë is one of the Valier, and her name is a word in Quenya, meaning “rest” or “repose.” She is nicknamed “the Healer” or “the Gentle One,” for she is a healer of wounds, and repose is her gift.",
             "img":"/img/Este.webp",
             "link":"https://lotr.fandom.com/wiki/Est%C3%AB",
             "race":"Valar",
@@ -89,7 +89,7 @@
         },
         {
             "nombre":"Vána",
-            "info":"Llamada 'la siempre joven'. Hermana menor de Yavanna. Las flores brotan cuando ella pasa, y se abren cuando ella las mira; y todos los pájaros cantan cuando ella se acerca.",
+            "info":"Called ‘the ever-young’. Younger sister of Yavanna. Flowers bloom when she passes by, and open when she looks at them; and all birds sing when she approaches.",
             "img":"/img/Vana.webp",
             "link":"https://lotr.fandom.com/wiki/V%C3%A1na",
             "race":"Valar",
@@ -103,7 +103,7 @@
         },
         {
             "nombre":"Oromë",
-            "info":"Oromë es un poderoso señor. Aunque no era tan fuerte como Tulkas, es más terrible en cólera. Oromë amaba la Tierra Media, la dejó de mala gana y fue el último en llegar a Valinor; y en otro tiempo volvía a menudo al este por las montañas y regresaba con su ejército a las colinas y las llanuras.",
+            "info":"Oromë is a mighty lord. Although he was not as strong as Tulkas, he is more terrible in his wrath. Oromë loved Middle-earth, left it reluctantly, and was the last to arrive in Valinor; and in former times he often returned to the east through the mountains and came back with his army to the hills and plains.",
             "img":"/img/Orome.webp",
             "link":"https://lotr.fandom.com/wiki/Orom%C3%AB",
             "race":"Valar",
@@ -117,7 +117,7 @@
         },
         {
             "nombre":"Nessa",
-            "info":"Ama a los ciervos, y ellos van detrás de su séquito toda vez que ella se interna en las tierras salvajes, pero los vence en la carrera, veloz como una flecha con el viento en los cabellos. La danza la deleita, y danza en Valinor en los prados siempre verdes.",
+            "info":"She loves deer, and they follow her entourage whenever she ventures into the wilds, but she outruns them, swift as an arrow with the wind in her hair. She delights in dancing, and she dances in Valinor in the evergreen meadows.",
             "img":"/img/Nessa.webp",
             "link":"https://lotr.fandom.com/wiki/Nessa",
             "race":"Valar",
@@ -131,7 +131,7 @@
         },
         {
             "nombre":"Tulkas",
-            "info":"Ama la lucha y los torneos de fuerza; y no monta a caballo, pues corre más rápidamente que todas las criaturas que andan a pie, y no conoce la fatiga. Tiene el pelo y la barba dorados y la piel rojiza; sus armas son las manos. En apariencia es el más fuerte físicamente de todos los Valar, incluso que Melkor, pues fue él quien lo encadenó con Angainor.",
+            "info":"He loves fighting and tournaments of strength; he does not ride horses, for he runs faster than all creatures that walk on foot, and he knows no fatigue. He has golden hair and beard and reddish skin; his weapons are his hands. In appearance, he is the strongest of all the Valar, even stronger than Melkor, for it was he who chained him with Angainor.",
             "img":"/img/Tulkas.webp",
             "link":"https://lotr.fandom.com/wiki/Tulkas",
             "race":"Valar",
@@ -145,7 +145,7 @@
         },
         {
             "nombre":"Yavanna",
-            "info":"Entre las Reinas de los Valar, Yavanna es la más venerable después de Varda. Es la esposa de Aulë y es, acorde al pensamiento de Ilúvatar, la hermana de Vána.",
+            "info":"Among the Queens of the Valar, Yavanna is the most venerable after Varda. She is the wife of Aulë and, according to Ilúvatar's plan, the sister of Vána.",
             "img":"/img/Yavanna.webp",
             "link":"https://lotr.fandom.com/wiki/Yavanna",
             "race":"Valar",
@@ -159,7 +159,7 @@
         },
         {
             "nombre":"Aulë",
-            "info":"Aulë es un ainur, uno de los Valar, el de la tierra y la minería, siendo su esposa la Valië Yavanna, y por lo tanto forma parte de los Aratar. El nombre de Aulë le fue dado por los Elfos y viene del Quenya, y significa 'Invención' o 'Creación', deriva del Valarin Aʒūlēz.' En Sindarin a veces es llamado como Ôli o Öl. Los Enanos lo llaman Mahal, 'el Hacedor' pues fue Aulë quien los creó y a quién de entre todos los Valar, ellos más adoran.",
+            "info":"Aulë is an Ainur, one of the Valar, the lord of earth and mining, whose wife is Valië Yavanna, and therefore part of the Aratar. The name Aulë was given to him by the Elves and comes from Quenya, meaning ‘Invention’ or ‘Creation’, derived from the Valarin Aʒūlēz. In Sindarin he is sometimes called Ôli or Öl. The Dwarves call him Mahal, ‘the Maker’, for it was Aulë who created them and whom they worship most among all the Valar.",
             "img":"/img/Aule.webp",
             "link":"https://lotr.fandom.com/wiki/Aul%C3%AB",
             "race":"Valar",
@@ -173,7 +173,7 @@
         },
         {
             "nombre":"Melkor(Morgoth)",
-            "info":"Nombre Quenya del gran Valar rebelde, el principio del mal en su origen, el más poderoso de los Ainur. Fue hermano de Manwë en la mente de Ilúvatar. Melkor es un gran Valar que se rebeló y luchó contra sus hermanos por el dominio de Arda. Representa la mayor figura del mal y la primera en la Tierra Media.",
+            "info":"Quenya name of the great rebel Valar, the origin of evil, the most powerful of the Ainur. He was Manwë's brother in the mind of Ilúvatar. Melkor is a great Valar who rebelled and fought against his brothers for dominion over Arda. He represents the greatest figure of evil and the first in Middle-earth.",
             "img":"/img/Morgoth.webp",
             "link":"https://lotr.fandom.com/wiki/Morgoth",
             "race":"Valar",
@@ -187,7 +187,7 @@
         },
         {
             "nombre":"Manwë_Súlimo",
-            "info":"Ama todas las aves y ellas van y vienen según sus designios. Es el más noble y de mayor autoridad entre los Valar y tan solo menos poderoso que Melkor.",
+            "info":"He loves all birds, and they come and go as they please. He is the noblest and most authoritative of the Valar, second only to Melkor in power.",
             "img":"/img/Manwe.webp",
             "link":"https://lotr.fandom.com/wiki/Manw%C3%AB",
             "race":"Valar",
@@ -201,7 +201,7 @@
         },
         {
             "nombre":"Varda",
-            "info":"Varda hizo las estrellas y con ellas, los Elfos despertaron en el Cuiviénen. Ella también llenó con su luz las dos lámparas en el principio del mundo para iluminarlo. De todos los Grandes que moran en este mundo a Varda, es quien más reverencian y aman todos los elfos.",
+            "info":"Varda made the stars, and with them, the Elves awoke in Cuiviénen. She also filled the two lamps at the beginning of the world with her light to illuminate it. Of all the Great Ones who dwell in this world, Varda is the one most revered and loved by all Elves.",
             "img":"/img/Varda.webp",
             "link":"https://lotr.fandom.com/wiki/Varda",
             "race":"Valar",
@@ -215,7 +215,7 @@
         },
         {
             "nombre":"Ulmo",
-            "info":"Está sólo. No habita mucho tiempo en parte alguna sino que se traslada a su antojo por las aguas profundas de la Tierra o debajo de ella. Raras veces asistía a los consejos de los Valar, a menos que se debatieran grandes asuntos. Siempre está presente en toda Arda y por tanto no necesita lugar de descanso.",
+            "info":"He is alone. He does not dwell long in any one place, but moves at will through the deep waters of the Earth or beneath it. He rarely attended the councils of the Valar, unless great matters were being debated. He is always present throughout Arda and therefore has no need of a place of rest.",
             "img":"/img/Ulmo.webp",
             "link":"https://lotr.fandom.com/wiki/Ulmo",
             "race":"Valar",

@@ -1,10 +1,10 @@
-import { Menu, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
+import { Menu, X } from "lucide-react";
 
 export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
   const [openSubmenu, setOpenSubmenu] = useState(null);
+  const [tapTimers, setTapTimers] = useState({});
   const menuRef = useRef(null);
-  const submenuRef = useRef(null);
 
   const handleNavigation = (id) => {
     if (id === "Home") {
@@ -22,22 +22,29 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
     setOpenSubmenu(null);
   };
 
-  const handleSubmenuToggle = (e, label) => {
-    // Prevenir comportamiento por defecto en dispositivos táctiles
+  const handleSubmenuToggle = (e, item) => {
     e.preventDefault();
     e.stopPropagation();
     
-    if (openSubmenu === label) {
-      setOpenSubmenu(null);
-    } else {
-      setOpenSubmenu(label);
+    // Si ya está abierto, manejamos como doble tap para navegar
+    if (openSubmenu === item.label) {
+      handleNavigation(item.href);
+      return;
     }
+    
+    // Para evitar cierre automático en móviles, usamos un estado temporal
+    setOpenSubmenu(item.label);
   };
 
   const handleSubmenuItemClick = (e, href) => {
     e.preventDefault();
     e.stopPropagation();
     handleNavigation(href);
+  };
+
+  // Prevenir el comportamiento por defecto en enlaces táctiles
+  const preventDefaultTouch = (e) => {
+    e.preventDefault();
   };
 
   useEffect(() => {
@@ -165,7 +172,6 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                 
                 {item.submenu && (
                   <div
-                    ref={submenuRef}
                     className={`${openSubmenu === item.label ? 'block' : 'hidden'} 
                       group-hover:block absolute mt-0 pt-5 rounded-md shadow-lg z-1001
                       ${item.label === "Men" ? 'w-96 grid grid-cols-2 -left-42' : 'w-48'}`}
@@ -206,19 +212,36 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
                   return (
                     <div key={i} className="flex flex-col">
                       <button
-                        className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors py-2"
-                        onClick={(e) => handleSubmenuToggle(e, item.label)}
-                        onTouchStart={(e) => handleSubmenuToggle(e, item.label)}
+                        className="text-left cursor-pointer font-ringm text-shadow-amber-100 hover:text-[#df891c] transition-colors py-2 flex justify-between items-center"
+                        onClick={(e) => handleSubmenuToggle(e, item)}
+                        onTouchStart={(e) => {
+                          // Solo prevenir el comportamiento por defecto, no manejar el toggle aquí
+                          e.preventDefault();
+                        }}
+                        onTouchEnd={(e) => {
+                          e.preventDefault();
+                          handleSubmenuToggle(e, item);
+                        }}
                       >
-                        {item.label}
+                        <span>{item.label}</span>
+                        <span className={`transform transition-transform ${openSubmenu === item.label ? 'rotate-180' : ''}`}>
+                          ▼
+                        </span>
                       </button>
-                      <div className={`${openSubmenu === item.label ? 'block' : 'hidden'} pl-4 mt-2 space-y-2 ${item.label === "Men" ? 'grid grid-cols-2 gap-2' : ''}`}>
+                      <div 
+                        className={`${openSubmenu === item.label ? 'block' : 'hidden'} pl-4 mt-2 space-y-2 ${item.label === "Men" ? 'grid grid-cols-2 gap-2' : ''}`}
+                        onClick={(e) => e.stopPropagation()}
+                        onTouchStart={(e) => e.stopPropagation()}
+                      >
                         {item.submenu.map((subItem, j) => (
                           <button
                             key={j}
-                            className="block w-full text-left font-ringm hover:text-[#df891c] transition-colors py-2"
+                            className="block w-full text-left font-ringm hover:text-[#df891c] transition-colors py-2 pl-2 border-l border-amber-800"
                             onClick={(e) => handleSubmenuItemClick(e, subItem.href)}
-                            onTouchStart={(e) => handleSubmenuItemClick(e, subItem.href)}
+                            onTouchStart={(e) => {
+                              e.preventDefault();
+                              handleSubmenuItemClick(e, subItem.href);
+                            }}
                           >
                             {subItem.label}
                           </button>
@@ -242,6 +265,21 @@ export const Menu_Lota = ({ toggleMenu, isMenuOpen, closeMenu }) => {
           </div>
         )}
       </div>
+      
+      <style jsx>{`
+        /* Prevenir zoom en inputs en iOS */
+        @media screen and (max-width: 768px) {
+          button {
+            touch-action: manipulation;
+          }
+          
+          /* Prevenir highlight azul en elementos táctiles en iOS */
+          button, 
+          .submenu-item {
+            -webkit-tap-highlight-color: transparent;
+          }
+        }
+      `}</style>
     </nav>
   );
 };

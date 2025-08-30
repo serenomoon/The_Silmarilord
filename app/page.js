@@ -32,7 +32,7 @@ const Home = () => {
 
       <div className="h-screen bg-[url(/img/map-back.png)] bg-fill bg-center">
         <div className="h-screen flex flex-col justify-center bg-black/50 items-center">
-          <h1 className="text-7xl font-ringm text-yellow-500/90 text-shadow-lg/80">
+          <h1 className="sm:text-7xl text-5xl text-center font-ringm text-yellow-500/90 text-shadow-lg/80">
             The Silmarilord
           </h1>
           <span className="text-md text-yellow-500/90 text-shadow-lg/80 font-ringm">A journey through Ëa</span>
@@ -40,8 +40,8 @@ const Home = () => {
       </div>
 
       {/* WELCOME */}
-      <div className="h-screen flex flex-col justify-center">
-        <div className="h-[70vh] grid grid-cols-6">
+      <div className="sm:h-screen flex flex-col justify-center my-4 sm:my-0">
+        <div className="sm:h-[70vh] grid grid-cols-6">
           <div className="w-full h-full flex justify-center opacity-60">
             <Image
               src="/img/ui/khazad.png"
@@ -55,8 +55,8 @@ const Home = () => {
             />
           </div>
 
-          <div className="h-full flex flex-col pt-20 px-10 text-center col-span-4 col-start-2 border-yellow-500/60 border-x-2">
-            <h1 className="text-2xl font-ringm text-yellow-500/90">
+          <div className="h-full flex flex-col pt-20 sm:px-10 px-2 text-center col-span-4 col-start-2 border-yellow-500/60 border-x-2">
+            <h1 className="pb-4 sm:pb-0 text-2xl font-ringm text-yellow-500/90">
               Welcome to the Silmarilord
             </h1>
             {/* <p>
@@ -100,14 +100,14 @@ Disfruta tu viaje!
       </div>
 
       <Banner />
-      <div className="mb-[15vh]"></div>
+      <div className="sm:mb-[15vh] mb-4"></div>
 
 
-      <div className="w-screen relative flex flex-col items-center justify-center">
+      <div className="w-screen relative sm:flex sm:flex-col items-center justify-center sm:mb-0 mb-7">
         {/* Imagen decorativa */}
-        <div className="relative w-full h-[46.5vw] flex justify-center">
+        <div className="relative w-full sm:h-[46.5vw] sm:flex justify-center">
           { /* Imagen decorativa como fondo */}
-          <div className="absolute inset-0 w-full h-full z-10">
+          <div className="absolute inset-0 w-full h-full z-10 sm:visible invisible">
             <Image
               src="/img/ui/moria_door_top.png"
               alt="Banner"
@@ -122,31 +122,31 @@ Disfruta tu viaje!
           </div>
 
           {/* Texto fijo sobre la imagen */}
-          <div className="absolute z-20 text-center">
-            <h1 className="text-[4vw] font-ringm text-yellow-500/90 pt-[6.5vw] pb-0 mb-0">Family Tree</h1>
-            <p className="text-[1.5vw] text-yellow-500/90 font-ringm p-0 m-0">Ask who and enter</p>
+          <div className="sm:absolute z-20 text-center">
+            <h1 className="sm:text-[4vw] text-3xl font-ringm text-yellow-500/90 pt-[6.5vw] pb-0 mb-0">Family Tree</h1>
+            <p className="text-[1.5vw] sm:visible invisible text-yellow-500/90 font-ringm p-0 m-0">Ask who and enter</p>
           </div>
 
-          <div className=" absolute top-[15vw] flex flex-col pt-[6vw] px-[15vw] text-center col-span-4 col-start-2">
-            <h1 className="text-[1.7vw] font-ringm text-yellow-500/90 pb-[1.5vw]">
+          <div className="sm:absolute sm:top-[15vw] flex flex-col pt-[6vw] sm:px-[15vw] px-4 sm:text-center text-justify col-span-4 col-start-2">
+            <h1 className="sm:text-[1.7vw] text-sm text-center font-ringm text-yellow-500/90 sm:pb-[1.5vw] pb-4">
               Eä! Let these things Be!
             </h1>
-            <p className="px-[15vw] text-[1.2vw] pt-0 mt-0 pb-[1.5vw]">
+            <p className="sm:px-[15vw] px-2 sm:text-[1.2vw] text-sm pt-0 mt-0 pb-5 sm:pb-[1.5vw]">
               I am Aragorn son of Arathorn; and if by life or death I can save you, I will.
             </p>
-            <p className="px-[8vw] text-[1.2vw] pt-0 mt-0 pb-[1.5vw]">
+            <p className="sm:px-[8vw] px-2 sm:text-[1.2vw] text-sm pt-0 mt-0 pb-5 sm:pb-[1.5vw]">
               The old that is strong does not wither, deep roots are not reached by the frost.
             </p>
-            <p className="px-[6vw] text-[1.2vw] pt-0 mt-0 pb-[1.5vw]">
+            <p className="sm:px-[6vw] px-2 sm:text-[1.2vw] text-sm pt-0 mt-0 pb-5 sm:pb-[1.5vw]">
               For Isildur’s bane is not yet healed. And the line of Elendil is not yet broken.
             </p>
-            <p className="px-[4.5vw] text-[1.2vw] pt-0 mt-0 pb-[1.5vw]">
+            <p className="sm:px-[4.5vw] px-2 sm:text-[1.2vw] text-sm pt-0 mt-0 pb-5 sm:pb-[1.5vw]">
               The doom of Men, that they should depart, was at first a gift of Ilúvatar. But it became a grief to them; and they feared death and desired to escape it.
             </p>
-            <p className="px-[2vw] text-[1.2vw] pt-0 mt-0 pb-[1.5vw]">
+            <p className="sm:px-[2vw] px-2 sm:text-[1.2vw] text-sm pt-0 mt-0 pb-5 sm:pb-[1.5vw]">
               There was sorrow then too in the House of Fëanor; and of that sorrow came many evil things.
             </p>
-            <p className="px-0 text-[1.2vw] pt-0 mt-0">
+            <p className="sm:px-0 px-2 sm:text-[1.2vw] text-sm pt-0 mt-0">
               Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.
             </p>
           </div>
@@ -155,7 +155,7 @@ Disfruta tu viaje!
 
       <div className="relative">
 
-        <div className="absolute -top-[1.9vw] -left-[3.5vw] w-[23vw] z-10 rounded-[3rem]">
+        <div className="sm:visible invisible absolute -top-[1.9vw] -left-[3.5vw] w-[23vw] z-10 rounded-[3rem]">
           <Image
             src="/img/ui/moria_door_left.webp"
             alt="Banner"
@@ -168,7 +168,7 @@ Disfruta tu viaje!
           />
         </div>
 
-        <div className="absolute -top-[1.8vw] -right-[4vw] w-[23vw] z-10 rounded-[4rem]">
+        <div className="sm:visible invisible absolute -top-[1.8vw] -right-[4vw] w-[23vw] z-10 rounded-[4rem]">
           <Image
             src="/img/ui/moria_door_right.webp"
             alt="Banner"
@@ -186,7 +186,7 @@ Disfruta tu viaje!
         />
         
 
-        <div className="absolute bottom-0 -left-[.6vw] w-[16.5vw]">
+        <div className="sm:visible invisible absolute bottom-0 -left-[.6vw] w-[16.5vw]">
           <Image
             src="/img/ui/moria_door_bottom_left.webp"
             alt="Banner"
@@ -199,7 +199,7 @@ Disfruta tu viaje!
           />
         </div>
 
-        <div className="absolute bottom-0 -right-[2.7vw] w-[17vw]">
+        <div className="sm:visible invisible absolute bottom-0 -right-[2.7vw] w-[17vw]">
           <Image
             src="/img/ui/moria_door_bottom_right.webp"
             alt="Banner"
@@ -214,7 +214,7 @@ Disfruta tu viaje!
       </div>
 
 
-      <div className="relative w-[100vw] left-1/2 -translate-x-1/2">
+      <div className="sm:visible invisible relative w-[100vw] left-1/2 -translate-x-1/2">
         <Image
           src="/img/ui/moria_door_bottom.png"
           alt="Banner"

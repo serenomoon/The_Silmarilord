@@ -23,7 +23,7 @@ export const RacesSection = ({
 
     return (
         <div className="flex justify-between">
-            <div className="flex justify-between overflow-hidden">
+            <div className="sm:visible invisible flex justify-between overflow-hidden">
                 <div
                     className="border-x-[5px] ml-[2vw] mr-[1vw] border-white w-[12vw]"
                     style={{
@@ -37,7 +37,7 @@ export const RacesSection = ({
             </div>
 
             <div className="pb-[3vw]">
-                <div className="w-[70vw] mx-[1vw] rounded-lg">
+                <div className="sm:w-[70vw] w-screen sm:px-0 px-4 mx-[1vw] rounded-lg">
                     {title != "No"
                         ?
                         <>
@@ -51,7 +51,7 @@ export const RacesSection = ({
                             }}
                         ></div>
                         <h1
-                            className="text-yellow-500/80 text-[3vw] font-ringm text-center py-2"
+                            className="text-yellow-500/80 sm:text-[3vw] text-2xl font-ringm text-center py-2"
                             id={title}
                             style={{
                                 textShadow: `
@@ -80,7 +80,7 @@ export const RacesSection = ({
                     {title != data.lotr_info[index][0].race
                         ?
                         <h2
-                            className="text-yellow-500/80 text-[2vw] font-ringm text-center"
+                            className="text-yellow-500/80 sm:text-[2vw] text-lg font-ringm text-center"
                             id={data.lotr_info[index][0].race}
                         >
                             {data.lotr_info[index][0].race}
@@ -114,7 +114,7 @@ export const RacesSection = ({
                     })}
                 </div>
             </div>
-            <div className="flex justify-between overflow-hidden">
+            <div className="sm:visible invisible flex justify-between overflow-hidden">
                 <div
                     className="border-x-[5px] ml-[2vw] mr-[1vw] border-white w-[12vw]"
                     style={{

@@ -98,8 +98,8 @@ export const AnimatedButton = ({ name, wiki, info, img, color_bg, h, w, zIndex, 
     }
   };
 
-  const hei = h * 0.25;
-  const wid = w * 0.25;
+  const hei = isMobile ? 6 : h * 0.25;
+  const wid = isMobile ? 25 : w * 0.25;
 
   return (
     <div
@@ -119,7 +119,7 @@ export const AnimatedButton = ({ name, wiki, info, img, color_bg, h, w, zIndex, 
       >
         <span
           className={`z-10 capitalize inline-flex items-center justify-center ${color_bg} rounded-[25px] text-black leading-[60px] tracking-widest transition-all duration-500 group-hover:!w-0 group-hover:opacity-0
-        ${visibleName.length > 17 ? "text-[.9vw]" : "text-[1.1vw]"}`}
+        ${visibleName.length > 17 ? "sm:text-[.9vw] text-[2vw]" : "sm:text-[1.1vw] text-[2.5vw]"}`}
           style={{
             height: `${hei}vw`,
             width: `${wid}vw`,
@@ -161,20 +161,20 @@ export const AnimatedButton = ({ name, wiki, info, img, color_bg, h, w, zIndex, 
           <div className="absolute inset-0 flex items-center justify-center opacity-100 transition-opacity duration-300 gap-2">
             <div className="relative">
               <MdOutlineTextsms
-                className="text-yellow-500/80 bg-gray-900 rounded-4xl w-[3.2vw] h-[3.2vw] px-[.7vw] cursor-pointer"
+                className="text-yellow-500/80 bg-gray-900 rounded-4xl w-[7vw] h-[7vw] px-[1vw] cursor-pointer"
                 onClick={() => togglePopup("text")}
               />
             </div>
 
             <div className="relative">
               <GiFamilyTree
-                className="text-yellow-500/80 bg-gray-900 rounded-4xl w-[3.2vw] h-[3.2vw] px-[.7vw] cursor-pointer"
+                className="text-yellow-500/80 bg-gray-900 rounded-4xl w-[7vw] h-[7vw] px-[1vw] cursor-pointer"
                 onClick={() => togglePopup("image")}
               />
             </div>
 
             <a href={wiki} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
-              <SiWikipedia className="text-yellow-500/80 bg-gray-900 rounded-4xl w-[3.2vw] h-[3.2vw] px-[.7vw]" />
+              <SiWikipedia className="text-yellow-500/80 bg-gray-900 rounded-4xl w-[7vw] h-[7vw] px-[1vw]" />
             </a>
           </div>
         )}
@@ -182,13 +182,13 @@ export const AnimatedButton = ({ name, wiki, info, img, color_bg, h, w, zIndex, 
 
       {popup === "text" && (isHovering || isMobile) && (
         <div
-          className="absolute top-full border-2 border-yellow-500/90 overflow-hidden translate-y-2 w-[22vw] h-[22vw] rounded-xl bg-gray-900 shadow-md"
+          className="absolute top-full border-2 border-yellow-500/90 overflow-hidden translate-y-2 sm:w-[22vw] sm:h-[22vw] w-[40vw] h-[40vw] rounded-xl bg-gray-900 shadow-md"
           style={{ zIndex: zIndex + 1 }}
         >
           <div className="relative flex flex-col h-full font-sans text-yellow-500/60 bg-gray-900">
-            <div className="p-2 overflow-y-auto scrollbar-custom">
-              <h4 className="text-center font-ringm text-[1.5vw]">Summary</h4>
-              <p className="text-sm text-[1.2vw]">{info}</p>
+            <div className="p-2 sm:overflow-y-auto overflow-y-scroll scrollbar-custom">
+              <h4 className="text-center font-ringm sm:text-[1.5vw] text-xs">Summary</h4>
+              <p className="text-[2.5vw] sm:text-[1.2vw]">{info}</p>
             </div>
           </div>
         </div>
@@ -196,13 +196,13 @@ export const AnimatedButton = ({ name, wiki, info, img, color_bg, h, w, zIndex, 
 
       {popup === "image" && (isHovering || isMobile) && (
         <div
-          className="absolute top-full scroll-auto border-2 border-yellow-500/90 translate-y-2 w-[22vw] h-[22vw] bg-gray-900 rounded-xl shadow-md overflow-hidden"
+          className="absolute top-full scroll-auto border-2 border-yellow-500/90 translate-y-2 sm:w-[22vw] sm:h-[22vw] w-[40vw] h-[40vw] bg-gray-900 rounded-xl shadow-md overflow-hidden"
           style={{ zIndex: zIndex + 1 }}
         >
           <div className="relative flex flex-col h-full font-sans text-yellow-500/60 bg-gray-900 overflow-y-auto">
-            <div className="p-[.5vw]">
-              <h4 className="text-center font-ringm text-[1.5vw] sticky top-0 bg-gray-900 pb-[.5vw]">Related</h4>
-              <div className="columns-2 gap-4 items-center text-[1.2vw]">
+            <div className="sm:p-[.5vw] p-2">
+              <h4 className="text-center font-ringm sm:text-[1.5vw] text-xs sticky top-0 bg-gray-900 pb-[.5vw]">Related</h4>
+              <div className="columns-2 gap-4 items-center sm:text-[1.2vw] text-[2.5vw]">
                 {progenitor.length > 0 && (
                   <div className="break-inside-avoid pb-[1vw] text-center">
                     <span className="font-bold block">Progenitor/s</span>

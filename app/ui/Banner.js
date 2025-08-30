@@ -3,8 +3,8 @@ import Image from "next/image"
 
 export const Banner = () => {
     return(
-        <div className="w-full px-10 border-yellow-500/60 border-y-2 bg-gray-900 text-shadow-lg/80">
-            <div className="w-full h-40 relative opacity-80">
+        <div className="w-full sm:px-10 px-2 border-yellow-500/60 border-y-2 bg-gray-900 text-shadow-lg/80">
+            <div className="w-full sm:h-40 h-20 relative opacity-80">
                 <Image
                     src="/img/one-banner.png"
                     alt="Banner"
